@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kondofumikazu-cmd.github.io/eclise-simulation/sitemap.xml
+

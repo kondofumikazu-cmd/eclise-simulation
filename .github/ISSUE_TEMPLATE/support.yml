@@ -1,0 +1,58 @@
+name: Support request / サポート
+description: Report a problem or ask about using Eclipse Simulator.
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contacting Eclipse Simulator support.
+
+        This issue will be public. Do not include your name, address, precise current location, Apple ID, passwords, API keys, or other personal or secret information.
+
+        このIssueは公開されます。氏名、住所、正確な現在地、Apple ID、パスワード、APIキーなどの個人情報・秘密情報を書き込まないでください。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / 端末
+      options:
+        - iPhone
+        - iPad
+        - Mac
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version / OSバージョン
+      placeholder: e.g. iOS 27.0 or macOS 27.0
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version / アプリバージョン
+      placeholder: e.g. 1.0 (1)
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or problem / 質問または問題
+      description: Describe what happened without personal information.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps / 操作手順
+      description: Include the eclipse event and steps needed to reproduce the issue when relevant.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy-check
+    attributes:
+      label: Public-information check / 公開情報の確認
+      options:
+        - label: I have not included personal data, credentials, or secrets. / 個人情報・認証情報・秘密情報を含めていません。
+          required: true
+

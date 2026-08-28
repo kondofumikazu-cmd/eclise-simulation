@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support information / サポート情報
+    url: https://kondofumikazu-cmd.github.io/eclise-simulation/support/
+    about: Read the FAQ and privacy notice before opening a public issue.
+
