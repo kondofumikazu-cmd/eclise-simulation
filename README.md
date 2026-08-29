@@ -9,5 +9,6 @@ GitHub Pages publishes the repository root at:
 - English: https://kondofumikazu-cmd.github.io/eclise-simulation/en/
 - Support: https://kondofumikazu-cmd.github.io/eclise-simulation/support/
 - Privacy: https://kondofumikazu-cmd.github.io/eclise-simulation/privacy/
+- Support email: kondofumikazu@icloud.com
 
 The site is plain HTML and CSS, with no analytics, cookies, forms, or client-side scripts.
