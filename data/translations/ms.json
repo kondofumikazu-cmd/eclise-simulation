@@ -1,0 +1,151 @@
+{
+  "app_locale": "ms",
+  "bcp47": "ms",
+  "native_name": "Bahasa Melayu",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "dasar privasi",
+    "support_page": "halaman sokongan",
+    "apple_maps_privacy": "Apple Maps & Privasi",
+    "apple_maps_terms": "terma Apple Maps",
+    "github_privacy": "Pernyataan Privasi GitHub",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Langkau ke kandungan",
+    "overview": "Gambaran keseluruhan dalam bahasa Melayu",
+    "support": "Sokongan",
+    "privacy": "Privasi",
+    "accessibility": "Kebolehcapaian dalam bahasa Melayu",
+    "languages": "Bahasa",
+    "brand_home_aria": "Gambaran keseluruhan {app_name} dalam bahasa Melayu",
+    "privacy_eyebrow": "Dasar Privasi",
+    "support_eyebrow": "Sokongan"
+  },
+  "privacy": {
+    "meta_description": "Dasar privasi untuk {app_name}, merangkumi lokasi, Apple Maps, storan pada peranti, eksport, hubungan sokongan dan laman web ini.",
+    "heading": "Dasar Privasi",
+    "lede": "Dasar ini terpakai pada versi iPhone, iPad dan Mac bagi {app_name}.",
+    "effective_date_label": "Tarikh berkuat kuasa",
+    "effective_date": "29 Ogos 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Amalan data dalam app",
+        "paragraphs": [
+          "App ini tidak menyertakan pengiklanan kendalian pembangun, penjejakan merentas app, analitis penggunaan, SDK analisis ranap, akaun log masuk, langganan, sembang atau ciri siaran awam. App ini tidak menghantar data peribadi ke pelayan yang dikendalikan oleh pembangun.",
+          "Perkhidmatan Apple, GitHub Pages, penyedia e-mel serta perkhidmatan penyimpanan atau perkongsian yang anda pilih boleh memproses maklumat secara berasingan seperti yang diterangkan di bawah."
+        ]
+      },
+      "location": {
+        "title": "Lokasi",
+        "paragraphs": [
+          "App ini meminta lokasi sekali sahaja selepas anda memilih Lokasi Semasa dan memberikan kebenaran dalam gesaan sistem. App menggunakan latitud dan longitud yang terhasil untuk menetapkan titik pemerhatian dan tidak melaksanakan penjejakan lokasi berterusan.",
+          "Kebenaran adalah pilihan. Anda boleh memilih titik pada peta, mencari tempat atau memasukkan latitud dan longitud. Pilihan ini tidak memerlukan kebenaran Core Location, tetapi permintaan peta, carian dan geokod songsang masih boleh diproses oleh perkhidmatan Apple."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "App ini menggunakan MapKit dan Apple Maps untuk paparan peta, carian tempat, geokod songsang dan pelengkapan zon waktu. Permintaan seperti kawasan peta yang kelihatan, istilah carian atau koordinat boleh diproses oleh Apple. App ini tidak mempunyai rangkaian tersuai yang menghantar permintaan ini ke pelayan kendalian pembangun.",
+          "Cara Apple mengendalikan permintaan ini diterangkan dalam {apple_maps_privacy} dan {apple_maps_terms} yang berkenaan."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Storan pada peranti",
+        "paragraphs": [
+          "Tetapan paparan disimpan dalam UserDefaults. Lokasi pemerhatian kegemaran boleh merangkumi nama, latitud, longitud, pengecam zon waktu dan pengecam yang dijana oleh app, serta disimpan dalam pangkalan data SQLite pada peranti.",
+          "Titik pemerhatian yang dipilih dan hasil pengiraan khusus lokasi juga boleh dicache pada peranti walaupun titik itu tidak disimpan sebagai kegemaran. Cache tersebut boleh mengandungi koordinat serta maklumat peristiwa atau model.",
+          "App ini tidak menyediakan penyegerakan akaun, penyegerakan CloudKit atau sandaran ke pelayan pembangun. Tingkah laku sandaran, pemunggahan app dan penyingkiran oleh sistem pengendalian berbeza-beza, maka memadam app tidak harus dianggap sebagai jaminan bahawa setiap salinan telah dipadam."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Eksport dan perkongsian",
+        "paragraphs": [
+          "Eksport CSV dan JSON boleh merangkumi nama lokasi pemerhatian, latitud, longitud dan zon waktu serta data gerhana. Eksport PNG dan PDF boleh merangkumi maklumat lokasi atau peristiwa yang kelihatan pada skrin.",
+          "Pada Mac, anda memilih lokasi simpanan. Pada iPhone dan iPad, app menghasilkan eksport sementara dan memaparkan helaian perkongsian sistem. Selepas eksport, amalan privasi destinasi atau perkhidmatan perkongsian yang anda pilih akan terpakai. App tidak memuat naik eksport secara automatik ke pelayan pembangun."
+        ]
+      },
+      "support_contact": {
+        "title": "E-mel sokongan dan GitHub Issues",
+        "paragraphs": [
+          "Jika anda menghantar e-mel kepada sokongan, alamat e-mel, mesej dan sebarang lampiran anda diproses oleh pembangun dan penyedia e-mel yang berkaitan untuk mengendalikan permintaan sokongan anda. Jangan hantar maklumat peribadi atau sulit yang tidak diperlukan untuk sokongan. Hubungi {email} jika anda mempunyai pertanyaan tentang pengendalian atau pemadaman mesej sokongan.",
+          "{issues_page} adalah terbuka kepada umum. Nama pengguna GitHub, maklumat profil dan kandungan yang anda serahkan mungkin kelihatan kepada orang lain dan diproses di bawah {github_privacy}. Jangan siarkan kata laluan, Apple ID, kunci API, alamat anda, lokasi semasa anda yang tepat atau maklumat peribadi lain."
+        ]
+      },
+      "children": {
+        "title": "Privasi kanak-kanak",
+        "paragraphs": [
+          "App ini tidak direka untuk mengumpulkan data peribadi dan tidak menyediakan profil umur, akaun, sembang atau siaran awam dalam app. Kanak-kanak dan penjaga tidak seharusnya menghantar maklumat peribadi melalui e-mel sokongan atau GitHub Issues awam. Penjaga boleh menghubungi {email} jika ada pertanyaan tentang maklumat yang dihantar untuk sokongan."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Laman web ini dan GitHub Pages",
+        "paragraphs": [
+          "Laman ini tidak menambahkan analitis, pengiklanan, kuki penjejakan, borang input atau skrip sebelah kliennya sendiri. Laman ini dihoskan oleh GitHub Pages, maka GitHub boleh memproses log akses dan maklumat teknikal lain yang diperlukan untuk mengendalikan dan melindungi perkhidmatan. Lihat {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Perubahan",
+        "paragraphs": [
+          "Jika amalan data app berubah, dasar ini dan jawapan privasi App Store yang berkenaan akan dikemas kini, dan dasar yang disemak akan diterbitkan pada halaman ini."
+        ]
+      },
+      "contact": {
+        "title": "Hubungi",
+        "paragraphs": [
+          "Untuk pertanyaan tentang dasar ini, hantar e-mel kepada {email} atau gunakan {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Privasi"
+  },
+  "support": {
+    "meta_description": "Bantuan, soalan lazim, panduan privasi dan pilihan hubungan untuk {app_name}.",
+    "heading": "Sokongan",
+    "lede": "App ini menyokong iOS dan iPadOS 17 atau lebih baharu serta macOS 14 atau lebih baharu.",
+    "contact_title": "Hubungi",
+    "contact_intro": "Untuk masalah, soalan tentang penggunaan app atau maklum balas, hubungi kami melalui e-mel atau GitHub Issues awam.",
+    "email_button": "E-mel sokongan",
+    "issues_button": "Buka GitHub Issues",
+    "contact_warning": "Jangan hantar kata laluan, Apple ID, kunci API, maklumat peribadi yang tidak diperlukan, alamat anda atau lokasi semasa anda yang tepat. GitHub Issues adalah terbuka kepada umum, dan nama pengguna GitHub, maklumat profil serta siaran anda mungkin kelihatan kepada orang lain.",
+    "diagnostics_title": "Maklumat yang membantu sokongan",
+    "diagnostics_items": [
+      "Sama ada anda menggunakan iPhone, iPad atau Mac, serta model peranti",
+      "Versi sistem pengendalian dan versi app",
+      "Peristiwa gerhana matahari atau bulan yang terlibat",
+      "Langkah sebelum masalah berlaku dan sebarang ralat yang dipaparkan"
+    ],
+    "privacy_note": "Untuk butiran tentang lokasi, eksport, e-mel dan GitHub Pages, baca {privacy_page}.",
+    "faq_title": "Soalan lazim",
+    "faqs": {
+      "location_permission": {
+        "question": "Adakah kebenaran lokasi diperlukan?",
+        "answer": "Tidak. Anda boleh mengetik atau mengklik peta, mencari tempat atau memasukkan latitud dan longitud. App meminta kebenaran Core Location hanya selepas anda memilih Lokasi Semasa. Permintaan peta, carian dan geokod songsang masih boleh diproses oleh perkhidmatan Apple."
+      },
+      "modern_maps": {
+        "question": "Mengapakah peristiwa bersejarah menggunakan peta moden?",
+        "answer": "Latar belakang ialah Apple Maps masa kini. Ia tidak membina semula sempadan, bandar, jalan atau garis pantai sejarah atau masa hadapan."
+      },
+      "model_differences": {
+        "question": "Mengapakah nilai boleh berbeza daripada NASA atau jadual rujukan lain?",
+        "answer": "Hasil boleh berbeza disebabkan efemeris, jejari pinggir bulan, ΔT, orientasi Bumi, rupa bumi dan andaian atmosfera. Semak syarat pengiraan dan sumber yang ditunjukkan dalam app. App ini tidak menjamin nilai muktamad untuk perancangan pemerhatian, navigasi, kesimpulan saintifik atau keputusan kritikal keselamatan."
+      },
+      "lunar_colour": {
+        "question": "Adakah warna gerhana bulan suatu ramalan?",
+        "answer": "Tidak. Warna merah ialah bantuan skematik untuk memahami perkembangan gerhana. Ia tidak menentukan keadaan atmosfera atau warna sebenar gerhana sejarah atau masa hadapan."
+      },
+      "exports": {
+        "question": "Format eksport manakah yang tersedia?",
+        "answer": "Anda boleh mengeksport data peristiwa yang dipilih sebagai CSV atau JSON dan skrin atau tetingkap sebagai PNG atau PDF. Eksport boleh merangkumi nama lokasi yang dipilih, koordinat, zon waktu atau maklumat lain yang kelihatan pada skrin, jadi semak kandungan sebelum berkongsinya."
+      }
+    },
+    "footer": "{app_name} — Sokongan"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}

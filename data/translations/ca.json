@@ -1,0 +1,151 @@
+{
+  "app_locale": "ca",
+  "bcp47": "ca",
+  "native_name": "català",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "política de privadesa",
+    "support_page": "pàgina de suport",
+    "apple_maps_privacy": "Apple Maps i Privadesa",
+    "apple_maps_terms": "Apple Maps termes",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Saltar al contingut",
+    "overview": "Visió general en anglès",
+    "support": "Suport",
+    "privacy": "Privadesa",
+    "accessibility": "Accessibilitat en anglès",
+    "languages": "Idiomes",
+    "brand_home_aria": "{app_name} Visió general en anglès",
+    "privacy_eyebrow": "Política de privadesa",
+    "support_eyebrow": "Suport"
+  },
+  "privacy": {
+    "meta_description": "Política de privadesa per a {app_name}, que cobreix la ubicació, Apple Maps, emmagatzematge en el dispositiu, exportacions, contacte de suport i aquest lloc web.",
+    "heading": "Política de privadesa",
+    "lede": "Aquesta política s'aplica a les versions de {app_name} per a iPhone, iPad i Mac.",
+    "effective_date_label": "Data d'entrada en vigor",
+    "effective_date": "29 d’agost de 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Pràctiques de dades a l’aplicació",
+        "paragraphs": [
+          "L’aplicació no inclou publicitat gestionada pel desenvolupador, seguiment entre aplicacions, anàlisi d’ús, SDKs d’anàlisi d’errors, comptes d’inici de sessió, subscripcions, xat ni funcions de publicació pública. L’aplicació no envia dades personals a un servidor gestionat pel desenvolupador.",
+          "Els serveis d’Apple, GitHub Pages, els proveïdors de correu electrònic i un servei de desament o de compartició que trieu poden processar la informació de manera independent, tal com es descriu a continuació."
+        ]
+      },
+      "location": {
+        "title": "Ubicació",
+        "paragraphs": [
+          "L'aplicació sol·licita una ubicació puntual només després que trieu Ubicació actual i concediu permís al diàleg del sistema. Utilitza la latitud i la longitud resultants per establir el punt d'observació i no implementa un seguiment continu de la ubicació.",
+          "El permís és opcional. Podeu seleccionar un punt al mapa, cercar un lloc o introduir la latitud i la longitud. Aquestes alternatives no requereixen permís de Core Location, però les sol·licituds de mapa, cerca i geocodificació inversa encara poden ser processades pels serveis d'Apple."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "L'aplicació utilitza MapKit i Apple Maps per a la visualització de mapes, la cerca de llocs, la geocodificació inversa i la completació de la zona horària. Les sol·licituds com la regió del mapa visible, els termes de cerca o les coordenades poden ser processades per Apple. L'aplicació no conté cap xarxa personalitzada que enviï aquestes sol·licituds a un servidor gestionat pel desenvolupador.",
+          "El tractament d'aquestes sol·licituds per part d'Apple es descriu a {apple_maps_privacy} i a la {apple_maps_terms} aplicable."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Emmagatzematge a l'aparell",
+        "paragraphs": [
+          "La configuració de visualització es desa a UserDefaults. Els llocs d'observació preferits poden incloure un nom, latitud, longitud, identificador de zona horària i un identificador generat per l'aplicació, i es desen en una base de dades SQLite a l'aparell.",
+          "Un punt d'observació seleccionat i els resultats de càlcul específics de la ubicació també poden emmagatzemar-se a la memòria cau del dispositiu encara que el punt no estigui desat com a favorit. Aquesta memòria cau pot contenir coordenades i informació d'esdeveniments o models.",
+          "L'aplicació no ofereix sincronització pròpia de comptes, sincronització amb CloudKit ni còpies de seguretat en un servidor del desenvolupador. El comportament de les còpies de seguretat, la descàrrega de l’app i l’eliminació per part del sistema operatiu varia; per tant, eliminar l’aplicació no s’ha de considerar una garantia que se n’hagin eliminat totes les còpies."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Exportació i compartició",
+        "paragraphs": [
+          "Les exportacions CSV i JSON poden incloure un nom de lloc d'observació, latitud, longitud i zona horària així com dades d'eclipsis. Les exportacions PNG i PDF poden incloure informació de la ubicació o de l'esdeveniment visible a la pantalla.",
+          "En Mac, trieu la ubicació on desar. En iPhone i iPad, l'aplicació crea una exportació temporal i mostra la fulla de compartició del sistema. Després de l'exportació, s'apliquen les pràctiques de privadesa del servei de destinació o compartició que trieu. L'aplicació no puja automàticament les exportacions a un servidor del desenvolupador."
+        ]
+      },
+      "support_contact": {
+        "title": "Correu electrònic de suport i GitHub Issues",
+        "paragraphs": [
+          "Si envieu un correu electrònic al suport, la vostra adreça de correu electrònic, el missatge i qualsevol fitxer adjunt són processats pel desenvolupador i pels proveïdors de correu electrònic rellevants en relació amb la gestió de la vostra sol·licitud de suport. No envieu informació personal o confidencial que no sigui necessària per al suport. Poseu-vos en contacte amb {email} si teniu alguna pregunta sobre la gestió o eliminació d'un missatge de suport.",
+          "{issues_page} és públic. El vostre nom d'usuari GitHub, la informació del perfil i els continguts enviats poden ser visibles per a altres i es processen segons {github_privacy}. No publiqueu contrasenyes, Apple IDs, claus API, la vostra adreça, la vostra ubicació exacta actual ni altra informació personal."
+        ]
+      },
+      "children": {
+        "title": "Privacitat dels nens",
+        "paragraphs": [
+          "L'aplicació no està dissenyada per recollir dades personals i no proporciona perfils d'edat, comptes, xat ni publicació pública dins de l'aplicació. Els nens i els tutors no han d'enviar informació personal a través del correu electrònic de suport o el GitHub Issues públic. Un tutor pot contactar amb {email} amb una pregunta sobre la informació enviada per suport."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Aquest lloc web i GitHub Pages",
+        "paragraphs": [
+          "Aquest lloc no afegeix els seus propis serveis d'analítica, publicitat, galetes de seguiment, formularis d'entrada ni scripts del costat del client. Està allotjat per GitHub Pages, així que GitHub pot processar registres d'accés i altres informacions tècniques necessàries per operar i assegurar el servei. Vegeu {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Canvis",
+        "paragraphs": [
+          "Si canvien les pràctiques de dades de l'aplicació, aquesta política i les respostes de privacitat aplicables de App Store seran actualitzades i la política revisada es publicarà en aquesta pàgina."
+        ]
+      },
+      "contact": {
+        "title": "Contacte",
+        "paragraphs": [
+          "Per a una consulta sobre aquesta política, envieu un correu electrònic a {email} o utilitzeu el {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Privacitat"
+  },
+  "support": {
+    "meta_description": "Ajuda, preguntes freqüents, orientació sobre privacitat i opcions de contacte per a {app_name}.",
+    "heading": "Suport",
+    "lede": "L'aplicació és compatible amb iOS i iPadOS 17 o posterior i macOS 14 o posterior.",
+    "contact_title": "Contacte",
+    "contact_intro": "Per a un problema, una pregunta sobre com utilitzar l'aplicació o comentaris, contacta'ns per correu electrònic o GitHub Issues públic.",
+    "email_button": "Suport per correu electrònic",
+    "issues_button": "Obre GitHub Issues",
+    "contact_warning": "No enviïs contrasenyes, Apple IDs, claus d'API, informació personal innecessària, la teva adreça o la teva ubicació exacta actual. GitHub Issues és públic, i el teu nom d'usuari GitHub, la informació del perfil i les publicacions poden ser visibles per a altres.",
+    "diagnostics_title": "Informació que ajuda amb el suport",
+    "diagnostics_items": [
+      "Si utilitzes un iPhone, iPad o Mac, i el model del dispositiu",
+      "La versió del sistema operatiu i la versió de l'aplicació",
+      "L'esdeveniment d'eclipsi solar o lunar relacionat",
+      "Els passos anteriors al problema i qualsevol error mostrat"
+    ],
+    "privacy_note": "Per obtenir detalls sobre la ubicació, exportacions, correu electrònic i GitHub Pages, llegeix el {privacy_page}.",
+    "faq_title": "Preguntes freqüents",
+    "faqs": {
+      "location_permission": {
+        "question": "Es requereix permís de localització?",
+        "answer": "No. Podeu tocar o fer clic al mapa, cercar un lloc o introduir la latitud i la longitud. L'aplicació sol·licita permís de Core Location només després que trieu Ubicació actual. Les sol·licituds de mapa, cerca i geocodificació inversa encara poden ser processades pels serveis d'Apple."
+      },
+      "modern_maps": {
+        "question": "Per què un esdeveniment històric utilitza un mapa modern?",
+        "answer": "El fons és l’actual Apple Maps. No reconstrueix fronteres, ciutats, carreteres ni línies costaneres històriques o futures."
+      },
+      "model_differences": {
+        "question": "Per què poden diferir els valors de NASA o d’una altra taula de referència?",
+        "answer": "Els resultats poden diferir a causa de les efemèrides, el radi del limbe lunar, ΔT, l’orientació de la Terra, el terreny i les hipòtesis atmosfèriques. Reviseu les condicions de càlcul i les fonts mostrades a l’aplicació. L’aplicació no garanteix valors definitius per a la planificació d’observacions, la navegació, les conclusions científiques ni les decisions crítiques per a la seguretat."
+      },
+      "lunar_colour": {
+        "question": "És el color de l’eclipsi lunar una predicció?",
+        "answer": "No. El color vermell és un ajut esquemàtic per entendre el progrés de l’eclipsi. No determina l’atmosfera ni el color real d’un eclipsi històric o futur."
+      },
+      "exports": {
+        "question": "Quins formats d’exportació estan disponibles?",
+        "answer": "Podeu exportar les dades de l’esdeveniment seleccionat com a CSV o JSON i la pantalla o finestra com a PNG o PDF. Les exportacions poden incloure el nom de la ubicació seleccionada, coordenades, zona horària o altra informació visible a la pantalla, així que comproveu el contingut abans de compartir-lo."
+      }
+    },
+    "footer": "{app_name} — Suport"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

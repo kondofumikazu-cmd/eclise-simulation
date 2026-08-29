@@ -1,0 +1,151 @@
+{
+  "app_locale": "hr",
+  "bcp47": "hr",
+  "native_name": "hrvatski",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "politika privatnosti",
+    "support_page": "podrška stranica",
+    "apple_maps_privacy": "Apple Maps & Privatnost",
+    "apple_maps_terms": "Apple Maps uvjeti",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Preskoči na sadržaj",
+    "overview": "Pregled na engleskom",
+    "support": "Podrška",
+    "privacy": "Privatnost",
+    "accessibility": "Pristupačnost na engleskom",
+    "languages": "Jezici",
+    "brand_home_aria": "{app_name} pregled na engleskom",
+    "privacy_eyebrow": "Politika privatnosti",
+    "support_eyebrow": "Podrška"
+  },
+  "privacy": {
+    "meta_description": "Politika privatnosti za {app_name}, koja pokriva lokaciju, Apple Maps, pohranu na uređaju, izvoz, kontakt za podršku i ovu web stranicu.",
+    "heading": "Politika privatnosti",
+    "lede": "Ova politika primjenjuje se na iPhone, iPad, i Mac verzije {app_name}.",
+    "effective_date_label": "Datum stupanja na snagu",
+    "effective_date": "29. kolovoza 2026.",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Prakse obrade podataka u aplikaciji",
+        "paragraphs": [
+          "Aplikacija ne uključuje oglašavanje kojim upravlja razvojni programer, praćenje među aplikacijama, analitiku korištenja, SDK-ove za analizu rušenja, račune za prijavu, pretplate, chat ili mogućnosti javnog objavljivanja. Aplikacija ne šalje osobne podatke na poslužitelj kojim upravlja razvojni programer.",
+          "Apple usluge, GitHub Pages, davatelji e-pošte i usluga spremanja ili dijeljenja koje odaberete mogu obrađivati informacije neovisno kako je opisano u nastavku."
+        ]
+      },
+      "location": {
+        "title": "Lokacija",
+        "paragraphs": [
+          "Aplikacija traži jednokratnu lokaciju samo nakon što odaberete Trenutnu lokaciju i odobrite dozvolu u sistemskom upitu. Koristi dobivenu širinu i dužinu za postavljanje promatračke točke i ne provodi kontinuirano praćenje lokacije.",
+          "Dozvola je opcionalna. Možete odabrati točku na karti, pretražiti mjesto ili unijeti širinu i dužinu. Ove alternative izbjegavaju Core Location dozvolu, ali zahtjevi za kartom, pretraživanjem i obrnuto-geokodiranjem i dalje mogu biti obrađeni od strane Appleovih usluga."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Aplikacija koristi MapKit i Apple Maps za prikaz karte, pretraživanje mjesta, obrnuto geokodiranje i dovršavanje vremenske zone. Zahtjevi poput vidljivog područja karte, pretraživanih pojmova ili koordinata mogu biti obrađeni od strane Applea. Aplikacija ne sadrži vlastito umrežavanje koje šalje ove zahtjeve na poslužitelj kojim upravlja razvojni programer.",
+          "Postupanje Applea s tim zahtjevima opisano je u {apple_maps_privacy} i odgovarajućim {apple_maps_terms}."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Pohrana na uređaju",
+        "paragraphs": [
+          "Postavke prikaza pohranjuju se u UserDefaults. Omiljene lokacije za promatranje mogu uključivati ime, širinu, dužinu, identifikator vremenske zone i identifikator koji generira aplikacija, te se pohranjuju u lokalnu SQLite bazu podataka.",
+          "Odabrana promatračka točka i rezultati izračuna specifični za lokaciju također se mogu pohraniti u predmemoriju na uređaju čak i kada točka nije spremljena kao favorit. Ta predmemorija može sadržavati koordinate i informacije o događaju ili modelu.",
+          "Aplikacija ne pruža vlastitu sinkronizaciju računa, CloudKit sinkronizaciju, niti sigurnosnu kopiju na poslužitelj programera. Postupci sigurnosnog kopiranja, prebacivanja i uklanjanja u operativnom sustavu variraju, pa uklanjanje aplikacije ne bi trebalo smatrati jamstvom da je svaki primjerak izbrisan."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Izvoz i dijeljenje",
+        "paragraphs": [
+          "CSV i JSON izvoz mogu uključivati naziv promatračke lokacije, širinu, dužinu i vremensku zonu, kao i podatke o pomrčini. PNG i PDF izvoz mogu uključivati informacije o lokaciji ili događaju vidljive na zaslonu.",
+          "Na Macu odabirete mjesto spremanja. Na iPhone i iPad, aplikacija stvara privremeni izvoz i prikazuje sustavni list za dijeljenje. Nakon izvoza, primjenjuju se pravila privatnosti odredišne usluge ili usluge dijeljenja koju odaberete. Aplikacija automatski ne prenosi izvoze na poslužitelj programera."
+        ]
+      },
+      "support_contact": {
+        "title": "Podrška putem e-pošte i GitHub Issues",
+        "paragraphs": [
+          "Ako pošaljete e-poruku podršci, vaša adresa e-pošte, poruka i svi prilozi obrađuju se od strane programera i relevantnih pružatelja e-poštanskih usluga u vezi s rješavanjem vašeg zahtjeva za podrškom. Nemojte slati osobne ili povjerljive informacije koje nisu potrebne za podršku. Kontaktirajte {email} s pitanjem o obradi ili brisanju poruke podrške.",
+          "{issues_page} je javno. Vaše GitHub korisničko ime, informacije o profilu i poslani sadržaj mogu biti vidljivi drugima i obrađuju se prema {github_privacy}. Nemojte objavljivati lozinke, Apple IDs, API ključeve, svoju adresu, točnu trenutnu lokaciju ili druge osobne podatke."
+        ]
+      },
+      "children": {
+        "title": "Privatnost djece",
+        "paragraphs": [
+          "Aplikacija nije dizajnirana za prikupljanje osobnih podataka i ne pruža profile dobne skupine, račune, chat ili javno objavljivanje unutar aplikacije. Djeca i staratelji ne bi trebali slati osobne podatke putem podrške e-poštom ili javnog GitHub Issues. Staratelj može kontaktirati {email} s pitanjem o informacijama poslanim za podršku."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Ova web stranica i GitHub Pages",
+        "paragraphs": [
+          "Ova stranica ne dodaje vlastitu analitiku, oglašavanje, kolačiće za praćenje, obrasce za unos ili skripte na strani klijenta. Hostirana je od strane GitHub Pages, tako da GitHub može obrađivati pristupne zapisnike i druge tehničke informacije potrebne za rad i sigurnost usluge. Pogledajte {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Promjene",
+        "paragraphs": [
+          "Ako se prakse obrade podataka aplikacije promijene, ova politika i primjenjivi odgovori o privatnosti u App Storeu bit će ažurirani, a revidirana politika objavit će se na ovoj stranici."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "paragraphs": [
+          "Za pitanje o ovoj politici, pošaljite e-mail na {email} ili koristite {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Privatnost"
+  },
+  "support": {
+    "meta_description": "Pomoć, često postavljana pitanja, smjernice o privatnosti i opcije kontakta za {app_name}.",
+    "heading": "Podrška",
+    "lede": "Aplikacija podržava iOS i iPadOS 17 ili noviji te macOS 14 ili noviji.",
+    "contact_title": "Kontakt",
+    "contact_intro": "Za problem, pitanje o korištenju aplikacije ili povratnu informaciju, kontaktirajte nas putem e-maila ili javnog GitHub Issues.",
+    "email_button": "Podrška putem e-maila",
+    "issues_button": "Otvori GitHub Issues",
+    "contact_warning": "Nemojte slati lozinke, Apple IDs, API ključeve, nepotrebne osobne podatke, svoju adresu ili točnu trenutačnu lokaciju. GitHub Issues je javan, a vaše korisničko ime na GitHubu, informacije na profilu i objave mogu biti vidljive drugima.",
+    "diagnostics_title": "Informacije koje pomažu kod podrške",
+    "diagnostics_items": [
+      "Koristite li iPhone, iPad ili Mac, te model uređaja",
+      "Verzija operativnog sustava i verzija aplikacije",
+      "Predmetni događaj pomrčine Sunca ili Mjeseca",
+      "Koraci prije problema i prikazana pogreška"
+    ],
+    "privacy_note": "Za detalje o lokaciji, izvozima, e-pošti i GitHub Pages, pročitajte {privacy_page}.",
+    "faq_title": "Često postavljana pitanja",
+    "faqs": {
+      "location_permission": {
+        "question": "Je li potrebna dozvola za lokaciju?",
+        "answer": "Ne. Možete dodirnuti ili kliknuti na kartu, tražiti mjesto ili unijeti širinu i dužinu. Aplikacija traži dozvolu za Core Location tek nakon što odaberete Trenutnu lokaciju. Zahtjevi za kartu, pretraživanje i obrnuto geokodiranje mogu i dalje biti obrađeni od strane Apple servisa."
+      },
+      "modern_maps": {
+        "question": "Zašto povijesni događaj koristi modernu kartu?",
+        "answer": "Pozadina je današnje Apple Maps. Ne rekonstruira povijesne ili buduće granice, gradove, ceste ili obale."
+      },
+      "model_differences": {
+        "question": "Zašto se vrijednosti mogu razlikovati od NASA ili druge referentne tablice?",
+        "answer": "Rezultati se mogu razlikovati zbog efemeride, polumjera Mjesečeva ruba, ΔT, orijentacije Zemlje, terena i atmosferskih pretpostavki. Pregledajte uvjete izračuna i izvore prikazane u aplikaciji. Aplikacija ne jamči konačne vrijednosti za planiranje promatranja, navigaciju, znanstvene zaključke ili odluke koje su kritične za sigurnost."
+      },
+      "lunar_colour": {
+        "question": "Je li boja pomrčine Mjeseca predviđanje?",
+        "answer": "Ne. Crvena boja je shematska pomoć za razumijevanje napretka pomrčine. Ne određuje atmosferu ni stvarnu boju povijesne ili buduće pomrčine."
+      },
+      "exports": {
+        "question": "Koji su dostupni formati izvoza?",
+        "answer": "Možete izvesti podatke o odabranom događaju kao CSV ili JSON, a ekran ili prozor kao PNG ili PDF. Izvozi mogu uključivati ime odabrane lokacije, koordinate, vremensku zonu ili druge informacije vidljive na ekranu, stoga provjerite sadržaj prije dijeljenja."
+      }
+    },
+    "footer": "{app_name} — Podrška"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "app_locale": "da",
+  "bcp47": "da",
+  "native_name": "dansk",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "fortrolighedspolitik",
+    "support_page": "supportside",
+    "apple_maps_privacy": "Apple Maps & Fortrolighed",
+    "apple_maps_terms": "Apple Maps vilkår",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Spring til indhold",
+    "overview": "Oversigt på engelsk",
+    "support": "Support",
+    "privacy": "Fortrolighed",
+    "accessibility": "Tilgængelighed på engelsk",
+    "languages": "Sprog",
+    "brand_home_aria": "{app_name} engelsk oversigt",
+    "privacy_eyebrow": "Fortrolighedspolitik",
+    "support_eyebrow": "Support"
+  },
+  "privacy": {
+    "meta_description": "Fortrolighedspolitik for {app_name}, der dækker placering, Apple Maps, lokal opbevaring, eksport, supportkontakt og denne hjemmeside.",
+    "heading": "Fortrolighedspolitik",
+    "lede": "Denne politik gælder for iPhone-, iPad- og Mac-versionerne af {app_name}.",
+    "effective_date_label": "Ikrafttrædelsesdato",
+    "effective_date": "29. august 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Datapraksis i appen",
+        "paragraphs": [
+          "Appen indeholder ikke annoncer, der drives af udvikleren, kryds-app sporing, brugsanalyse, crash-analyse SDK'er, login-konti, abonnementer, chat eller funktioner til offentlig opslag. Appen sender ikke personlige oplysninger til en server, der drives af udvikleren.",
+          "Apple-tjenester, GitHub Pages, e-mailudbydere og en gemme- eller delingstjeneste, du vælger, kan behandle oplysninger uafhængigt som beskrevet nedenfor."
+        ]
+      },
+      "location": {
+        "title": "Placering",
+        "paragraphs": [
+          "Appen beder om en engangsplacering kun efter, at du vælger Nuværende placering og giver tilladelse i systemprompten. Den bruger den resulterende bredde- og længdegrad til at indstille observationspunktet og implementerer ikke kontinuerlig positionssporing.",
+          "Tilladelse er valgfri. Du kan vælge et punkt på kortet, søge efter et sted eller indtaste bredde- og længdegrad. Disse alternativer undgår Core Location tilladelse, men kort-, søge- og omvendte geokodningsanmodninger kan stadig behandles af Apple-tjenester."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Appen bruger MapKit og Apple Maps til kortvisning, søgning efter steder, omvendt geokodning og tidszone-udfyldning. Anmodninger såsom det synlige kortområde, søgetermer eller koordinater kan blive behandlet af Apple. Appen indeholder ingen brugerdefineret netværksfunktionalitet, der sender disse anmodninger til en server drevet af udvikleren.",
+          "Apples håndtering af disse anmodninger er beskrevet i {apple_maps_privacy} og den gældende {apple_maps_terms}."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Lagring på enheden",
+        "paragraphs": [
+          "Visningsindstillinger gemmes i UserDefaults. Foretrukne observationssteder kan inkludere et navn, breddegrad, længdegrad, tidszone-id og et app-genereret id, og gemmes i en SQLite-database på enheden.",
+          "Et udvalgt observationspunkt og lokationsspecifikke beregningsresultater kan også caches på enheden, selv når punktet ikke er gemt som favorit. Den cache kan indeholde koordinater samt hændelses- eller modelinformation.",
+          "Appen tilbyder ikke sin egen konto-synkronisering, CloudKit-synkronisering eller backup til en udviklers server. Adfærd vedrørende operativsystemets backup, aflæsning og fjernelse varierer, så fjernelse af appen bør ikke betragtes som en garanti for, at hver kopi er blevet slettet."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Eksport og deling",
+        "paragraphs": [
+          "CSV- og JSON-eksporter kan indeholde et observationssteds navn, breddegrad, længdegrad og tidszone samt data om sol- eller måneformørkelser. PNG- og PDF-eksporter kan indeholde lokalitets- eller hændelsesinformation, der er synlig på skærmen.",
+          "På Mac vælger du gemmeplaceringen. På iPhone og iPad opretter appen en midlertidig eksport og viser systemets delingsark. Efter eksport gælder de privatlivspraksisser, som gælder for den destination eller delingstjeneste, du vælger. Appen uploader ikke automatisk eksporter til en udviklers server."
+        ]
+      },
+      "support_contact": {
+        "title": "Support-e-mail og GitHub Issues",
+        "paragraphs": [
+          "Hvis du sender en e-mail til support, behandles din e-mailadresse, besked og eventuelle vedhæftede filer af udvikleren og de relevante e-mailudbydere i forbindelse med håndtering af din supportanmodning. Send ikke personlige eller fortrolige oplysninger, som ikke er nødvendige for support. Kontakt {email} med spørgsmål om håndtering eller sletning af en supportbesked.",
+          "{issues_page} er offentlig. Dit GitHub brugernavn, profiloplysninger og indsendt indhold kan være synligt for andre og behandles under {github_privacy}. Post ikke adgangskoder, Apple IDs, API-nøgler, din adresse, din nøjagtige nuværende placering eller andre personlige oplysninger."
+        ]
+      },
+      "children": {
+        "title": "Børns privatliv",
+        "paragraphs": [
+          "Appen er ikke designet til at indsamle personoplysninger og giver ikke alderprofiler, konti, chat eller offentlig deling i appen. Børn og værger bør ikke sende personlige oplysninger via supportemail eller offentligt GitHub Issues. En værge kan kontakte {email} med et spørgsmål om oplysninger sendt til support."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Denne hjemmeside og GitHub Pages",
+        "paragraphs": [
+          "Dette websted tilføjer ikke sine egne analysetjenester, reklamer, sporingscookies, inputformularer eller klient-side scripts. Det hostes af GitHub Pages, så GitHub kan behandle adgangslogger og andre tekniske oplysninger, der er nødvendige for at drive og sikre tjenesten. Se {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Ændringer",
+        "paragraphs": [
+          "Hvis appens datapraxis ændres, vil denne politik og de gældende App Store privatlivsresponser blive opdateret, og den reviderede politik vil blive offentliggjort på denne side."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "paragraphs": [
+          "For spørgsmål om denne politik, send en e-mail til {email} eller brug {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Privatliv"
+  },
+  "support": {
+    "meta_description": "Hjælp, ofte stillede spørgsmål, vejledning om privatliv og kontaktmuligheder for {app_name}.",
+    "heading": "Support",
+    "lede": "Appen understøtter iOS og iPadOS 17 eller nyere og macOS 14 eller nyere.",
+    "contact_title": "Kontakt",
+    "contact_intro": "For et problem, et spørgsmål om brug af appen eller feedback, kontakt os via e-mail eller offentlig GitHub Issues.",
+    "email_button": "E-mail support",
+    "issues_button": "Åbn GitHub Issues",
+    "contact_warning": "Send ikke adgangskoder, Apple IDs, API-nøgler, unødvendige personlige oplysninger, din adresse eller din præcise aktuelle placering. GitHub Issues er offentlig, og dit GitHub brugernavn, profiloplysninger og indlæg kan være synlige for andre.",
+    "diagnostics_title": "Information, der hjælper med support",
+    "diagnostics_items": [
+      "Om du bruger en iPhone, iPad eller Mac, og enhedsmodellen",
+      "Operativsystemversion og appversion",
+      "Den pågældende sol- eller måneformørkelse",
+      "Trinnene før problemet og eventuelle viste fejl"
+    ],
+    "privacy_note": "For oplysninger om placering, eksport, e-mail og GitHub Pages, læs {privacy_page}.",
+    "faq_title": "Ofte stillede spørgsmål",
+    "faqs": {
+      "location_permission": {
+        "question": "Er placeringstilladelse påkrævet?",
+        "answer": "Nej. Du kan trykke eller klikke på kortet, søge efter et sted eller indtaste bredde- og længdegrad. Appen anmoder kun om Core Location-tilladelse, efter du har valgt Nuværende placering. Kort-, søge- og omvendt geokodningsanmodninger kan stadig behandles af Apple-tjenester."
+      },
+      "modern_maps": {
+        "question": "Hvorfor bruger en historisk begivenhed et moderne kort?",
+        "answer": "Baggrunden er nutidens Apple Maps. Den genskaber ikke historiske eller fremtidige grænser, byer, veje eller kystlinjer."
+      },
+      "model_differences": {
+        "question": "Hvorfor kan værdier afvige fra NASA eller en anden referencetabel?",
+        "answer": "Resultater kan afvige på grund af efemeride, månekantsradius, ΔT, Jordens orientering, terræn og atmosfæriske antagelser. Gennemgå beregningsbetingelserne og kilderne, som vises i appen. Appen garanterer ikke definitive værdier til observationsplanlægning, navigation, videnskabelige konklusioner eller sikkerhedskritiske beslutninger."
+      },
+      "lunar_colour": {
+        "question": "Er måneformørkelsesfarven en forudsigelse?",
+        "answer": "Nej. Den røde farve er et skematisk hjælpemiddel til at forstå måneformørkelsens forløb. Den bestemmer ikke atmosfæren eller den faktiske farve på en historisk eller fremtidig måneformørkelse."
+      },
+      "exports": {
+        "question": "Hvilke eksportformater er tilgængelige?",
+        "answer": "Du kan eksportere data for udvalgte begivenheder som CSV eller JSON og skærmen eller vinduet som PNG eller PDF. Eksporterne kan inkludere den valgte lokations navn, koordinater, tidszone eller anden information, der er synlig på skærmen, så tjek indholdet, inden du deler det."
+      }
+    },
+    "footer": "{app_name} — Support"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

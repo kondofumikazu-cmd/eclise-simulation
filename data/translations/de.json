@@ -1,0 +1,151 @@
+{
+  "app_locale": "de",
+  "bcp47": "de",
+  "native_name": "Deutsch",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "Datenschutzerklärung",
+    "support_page": "Support-Seite",
+    "apple_maps_privacy": "Apple Maps & Datenschutz",
+    "apple_maps_terms": "Apple Maps Nutzungsbedingungen",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "overview": "Übersicht auf Englisch",
+    "support": "Support",
+    "privacy": "Datenschutz",
+    "accessibility": "Barrierefreiheit auf Englisch",
+    "languages": "Sprachen",
+    "brand_home_aria": "Englische Übersicht zu {app_name}",
+    "privacy_eyebrow": "Datenschutzerklärung",
+    "support_eyebrow": "Support"
+  },
+  "privacy": {
+    "meta_description": "Datenschutzerklärung für {app_name}, die Standort, Apple Maps, Speicherung auf dem Gerät, Exporte, Support-Kontakt und diese Website abdeckt.",
+    "heading": "Datenschutzerklärung",
+    "lede": "Diese Richtlinie gilt für die iPhone-, iPad- und Mac-Versionen von {app_name}.",
+    "effective_date_label": "Wirksamkeitsdatum",
+    "effective_date": "29. August 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Datenpraktiken in der App",
+        "paragraphs": [
+          "Die App enthält keine vom Entwickler betriebenen Werbeanzeigen, kein App-übergreifendes Tracking, keine Nutzungsanalysen, keine SDKs zur Absturzanalyse, keine Login-Konten, Abonnements, Chat- oder öffentliche Posting-Funktionen. Die App sendet keine persönlichen Daten an einen vom Entwickler betriebenen Server.",
+          "Apple-Dienste, GitHub Pages, E-Mail-Anbieter und ein von Ihnen gewählter Speicher- oder Freigabedienst können Informationen unabhängig entsprechend der unten beschriebenen Weise verarbeiten."
+        ]
+      },
+      "location": {
+        "title": "Standort",
+        "paragraphs": [
+          "Die App fragt einmalig nach dem Standort, nur nachdem Sie Aktuellen Standort ausgewählt und die Berechtigung im Systemdialog erteilt haben. Sie verwendet die resultierenden Breiten- und Längengrade, um den Beobachtungspunkt festzulegen, und implementiert keine kontinuierliche Standortverfolgung.",
+          "Die Berechtigung ist optional. Sie können einen Punkt auf der Karte auswählen, nach einem Ort suchen oder Breiten- und Längengrad eingeben. Für diese Alternativen ist keine Core-Location-Berechtigung erforderlich, aber Karten-, Such- und Reverse-Geocoding-Anfragen können dennoch von Apple-Diensten verarbeitet werden."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Die App verwendet MapKit und Apple Maps für die Kartenanzeige, die Ortssuche, das Reverse-Geocoding und die Zeitzonen-Vervollständigung. Anfragen wie die sichtbare Kartenregion, Suchbegriffe oder Koordinaten können von Apple verarbeitet werden. Die App enthält kein eigenes Netzwerk, das diese Anfragen an einen vom Entwickler betriebenen Server sendet.",
+          "Die Verarbeitung dieser Anfragen durch Apple wird in {apple_maps_privacy} und den geltenden {apple_maps_terms} beschrieben."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Lokale Speicherung",
+        "paragraphs": [
+          "Anzeigeeinstellungen werden in UserDefaults gespeichert. Lieblingsbeobachtungsorte können einen Namen, Breitengrad, Längengrad, Zeitzonenkennzeichen und eine von der App generierte Kennung enthalten und werden in einer lokalen SQLite-Datenbank gespeichert.",
+          "Ein ausgewählter Beobachtungspunkt und ortsspezifische Berechnungsergebnisse können auch auf dem Gerät zwischengespeichert werden, selbst wenn der Punkt nicht als Favorit gespeichert ist. Dieser Cache kann Koordinaten sowie Ereignis- oder Modellinformationen enthalten.",
+          "Die App bietet keine eigene Kontosynchronisation, CloudKit-Synchronisation oder Sicherung auf einem Entwickler-Server an. Das Verhalten bei Betriebssystem-Backups, Auslagerung und Entfernung variiert, daher sollte das Entfernen der App nicht als Garantie dafür betrachtet werden, dass jede Kopie gelöscht wurde."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Export und Teilen",
+        "paragraphs": [
+          "CSV- und JSON-Exporte können den Namen des Beobachtungsorts, Breitengrad, Längengrad und Zeitzone sowie Finsternisdaten enthalten. PNG- und PDF-Exporte können Standort- oder Ereignisinformationen enthalten, die auf dem Bildschirm sichtbar sind.",
+          "Auf dem Mac wählen Sie den Speicherort. Auf iPhone und iPad erstellt die App einen temporären Export und zeigt das Systemfreigabemenü an. Nach dem Export gelten die Datenschutzbestimmungen des Ziels oder Dienstes, den Sie für die Freigabe auswählen. Die App lädt Exporte nicht automatisch auf einen Server des Entwicklers hoch."
+        ]
+      },
+      "support_contact": {
+        "title": "Support-E-Mail und GitHub Issues",
+        "paragraphs": [
+          "Wenn Sie den Support per E-Mail kontaktieren, werden Ihre E-Mail-Adresse, Nachricht und alle Anhänge vom Entwickler und den betreffenden E-Mail-Anbietern im Zusammenhang mit der Bearbeitung Ihrer Supportanfrage verarbeitet. Senden Sie keine persönlichen oder vertraulichen Informationen, die für den Support nicht erforderlich sind. Kontaktieren Sie {email}, wenn Sie eine Frage zur Verarbeitung oder Löschung einer Support-Nachricht haben.",
+          "{issues_page} ist öffentlich. Ihr GitHub Benutzername, Profilinformationen und eingereichte Inhalte können für andere sichtbar sein und werden gemäß {github_privacy} verarbeitet. Veröffentlichen Sie keine Passwörter, Apple IDs, API-Schlüssel, Ihre Adresse, Ihren genauen aktuellen Standort oder andere persönliche Informationen."
+        ]
+      },
+      "children": {
+        "title": "Datenschutz von Kindern",
+        "paragraphs": [
+          "Die App ist nicht darauf ausgelegt, persönliche Daten zu sammeln, und bietet keine Altersprofile, Konten, Chats oder öffentliche Beiträge innerhalb der App. Kinder und Erziehungsberechtigte sollten keine persönlichen Informationen über die Support-E-Mail oder öffentliches GitHub Issues senden. Ein Erziehungsberechtigter kann {email} kontaktieren, wenn er eine Frage zu übermittelten Informationen für den Support hat."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Diese Website und GitHub Pages",
+        "paragraphs": [
+          "Diese Website fügt keine eigenen Analysen, Werbung, Tracking-Cookies, Eingabeformulare oder clientseitigen Skripte hinzu. Sie wird von GitHub Pages gehostet, daher kann GitHub Zugriffsprotokolle und andere technische Informationen verarbeiten, die erforderlich sind, um den Service zu betreiben und zu sichern. Siehe {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Änderungen",
+        "paragraphs": [
+          "Wenn sich die Datenpraktiken der App ändern, wird diese Richtlinie sowie die geltenden App Store-Datenschutzantworten aktualisiert und die überarbeitete Richtlinie auf dieser Seite veröffentlicht."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "paragraphs": [
+          "Bei Fragen zu dieser Richtlinie senden Sie eine E-Mail an {email} oder nutzen Sie die {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Datenschutz"
+  },
+  "support": {
+    "meta_description": "Hilfe, häufig gestellte Fragen, Datenschutzleitfäden und Kontaktmöglichkeiten für {app_name}.",
+    "heading": "Support",
+    "lede": "Die App unterstützt iOS und iPadOS 17 oder höher sowie macOS 14 oder höher.",
+    "contact_title": "Kontakt",
+    "contact_intro": "Bei einem Problem, einer Frage zur Nutzung der App oder Feedback kontaktieren Sie uns per E-Mail oder öffentlichen GitHub Issues.",
+    "email_button": "E-Mail-Support",
+    "issues_button": "Öffne GitHub Issues",
+    "contact_warning": "Senden Sie keine Passwörter, Apple IDs, API-Schlüssel, unnötige persönliche Informationen, Ihre Adresse oder Ihren genauen aktuellen Standort. GitHub Issues ist öffentlich, und Ihr GitHub Benutzername, Profilinformationen und Beiträge können für andere sichtbar sein.",
+    "diagnostics_title": "Informationen, die beim Support helfen",
+    "diagnostics_items": [
+      "Ob Sie ein iPhone, iPad oder Mac verwenden, und das Gerätemodell",
+      "Die Betriebssystemversion und die App-Version",
+      "Das betreffende Sonnen- oder Mondfinsternisereignis",
+      "Die Schritte vor dem Problem und alle angezeigten Fehler"
+    ],
+    "privacy_note": "Für Details zu Standort, Exporten, E-Mail und GitHub Pages, lesen Sie die {privacy_page}.",
+    "faq_title": "Häufig gestellte Fragen",
+    "faqs": {
+      "location_permission": {
+        "question": "Ist die Standortberechtigung erforderlich?",
+        "answer": "Nein. Sie können auf die Karte tippen oder klicken, einen Ort suchen oder Breiten- und Längengrad eingeben. Die App fordert die Core Location-Berechtigung nur an, nachdem Sie Aktueller Standort gewählt haben. Karten-, Such- und Umkehr-Geokodierungsanfragen können weiterhin von Apple-Diensten verarbeitet werden."
+      },
+      "modern_maps": {
+        "question": "Warum verwendet ein historisches Ereignis eine moderne Karte?",
+        "answer": "Der Hintergrund ist das gegenwärtige Apple Maps. Er rekonstruiert keine historischen oder zukünftigen Grenzen, Städte, Straßen oder Küstenlinien."
+      },
+      "model_differences": {
+        "question": "Warum können Werte von NASA oder einer anderen Referenztabelle abweichen?",
+        "answer": "Ergebnisse können sich aufgrund der Ephemeriden, des Mondrandradius, ΔT, der Erdorientierung, des Geländes und atmosphärischer Annahmen unterscheiden. Überprüfen Sie die Berechnungsbedingungen und Quellen, die in der App angezeigt werden. Die App garantiert keine endgültigen Werte für Beobachtungsplanung, Navigation, wissenschaftliche Schlussfolgerungen oder sicherheitsrelevante Entscheidungen."
+      },
+      "lunar_colour": {
+        "question": "Ist die Farbe einer Mondfinsternis eine Vorhersage?",
+        "answer": "Nein. Die rote Farbe dient als schematische Hilfe zum Verständnis des Verlaufs einer Finsternis. Sie bestimmt nicht die Atmosphäre oder die tatsächliche Farbe einer historischen oder zukünftigen Finsternis."
+      },
+      "exports": {
+        "question": "Welche Exportformate sind verfügbar?",
+        "answer": "Sie können Daten zu ausgewählten Ereignissen als CSV oder JSON und den Bildschirm oder das Fenster als PNG oder PDF exportieren. Exporte können den Namen des ausgewählten Ortes, Koordinaten, Zeitzone oder andere auf dem Bildschirm sichtbare Informationen enthalten. Prüfen Sie daher den Inhalt, bevor Sie ihn weitergeben."
+      }
+    },
+    "footer": "{app_name} — Unterstützung"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "app_locale": "fi",
+  "bcp47": "fi",
+  "native_name": "suomi",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "tietosuojakäytäntö",
+    "support_page": "tukisivu",
+    "apple_maps_privacy": "Apple Maps & Tietosuoja",
+    "apple_maps_terms": "Apple Maps ehdot",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "overview": "Yleiskatsaus englanniksi",
+    "support": "Tuki",
+    "privacy": "Tietosuoja",
+    "accessibility": "Esteettömyys englanniksi",
+    "languages": "Kielet",
+    "brand_home_aria": "{app_name} englanninkielinen yleiskatsaus",
+    "privacy_eyebrow": "Tietosuojakäytäntö",
+    "support_eyebrow": "Tuki"
+  },
+  "privacy": {
+    "meta_description": "{app_name} tietosuojakäytäntö, joka kattaa sijainnin, Apple Maps, laitteella olevan tallennuksen, viennit, tukikontaktin ja tämän verkkosivuston.",
+    "heading": "Tietosuojakäytäntö",
+    "lede": "Tämä käytäntö koskee iPhone, iPad ja Mac-versioita {app_name}.",
+    "effective_date_label": "Voimaantulopäivä",
+    "effective_date": "29. elokuuta 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Sovelluksen tietokäytännöt",
+        "paragraphs": [
+          "Sovellus ei sisällä kehittäjän hallinnoimaa mainontaa, sovellusten välistä seurantaa, käyttöanalytiikkaa, kaatumananalyysin SDK:ita, kirjautumistilejä, tilauksia, chattoimintoja tai julkisen jakamisen ominaisuuksia. Sovellus ei lähetä henkilötietoja kehittäjän hallinnoimalle palvelimelle.",
+          "Apple-palvelut, GitHub Pages, sähköpostipalveluntarjoajat sekä valitsemasi tallennus- tai jakamispalvelu saattavat käsitellä tietoja itsenäisesti alla kuvatulla tavalla."
+        ]
+      },
+      "location": {
+        "title": "Sijainti",
+        "paragraphs": [
+          "Sovellus pyytää yksittäistä sijaintia vain sen jälkeen, kun valitset Nykyinen sijainti ja myönnät luvan järjestelmän kehotteessa. Se käyttää saadun leveys- ja pituusasteen asettaakseen havainnointipisteen eikä käytä jatkuvaa sijainninseurantaa.",
+          "Luvan myöntäminen on vapaaehtoista. Voit valita pisteen kartalta, etsiä paikan tai syöttää leveys- ja pituusasteen. Nämä vaihtoehdot eivät edellytä Core Location -lupaa, mutta kartta-, haku- ja käänteisen geokoodauksen pyynnöt saatetaan silti käsitellä Applen palveluissa."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Sovellus käyttää MapKit ja Apple Maps karttanäyttöön, paikkahakuun, käänteiseen geokoodaukseen ja aikavyöhykkeen täydennykseen. Pyynnöt, kuten näkyvä kartta-alue, hakutermit tai koordinaatit, voivat olla Applen käsiteltävänä. Sovellus ei sisällä mukautettua verkkoliikennettä, joka lähettää nämä pyynnöt kehittäjän ylläpitämään palvelimeen.",
+          "Applen näiden pyyntöjen käsittelystä kerrotaan {apple_maps_privacy} ja sovellettavassa {apple_maps_terms}."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Laitteella oleva tallennus",
+        "paragraphs": [
+          "Näyttöasetukset tallennetaan UserDefaults. Suosikkien tarkkailupaikat voivat sisältää nimen, leveyspiirin, pituuspiirin, aikavyöhyketunnisteen ja sovelluksen luoman tunnisteen, ja ne tallennetaan laitteen SQLite tietokantaan.",
+          "Valittu havaintopiste ja sijaintikohtaiset laskentatulokset voivat myös tallentua laitteen välimuistiin, vaikka pistettä ei olisi tallennettu suosikiksi. Tämä välimuisti voi sisältää koordinaatit sekä tapahtuma- tai mallitietoja.",
+          "Sovellus ei tarjoa omaa tilin synkronointia, CloudKit-synkronointia tai varmuuskopiota kehittäjän palvelimelle. Käyttöjärjestelmän varmuuskopiointi, siirtäminen ja poistokäyttäytyminen vaihtelee, joten sovelluksen poistamista ei tulisi pitää takeena siitä, että kaikki kopiot on poistettu."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Vienti ja jakaminen",
+        "paragraphs": [
+          "CSV- ja JSON-viennit voivat sisältää havaintopaikan nimen, leveyspiirin, pituuspiirin ja aikavyöhykkeen sekä auringon- tai kuunpimennystietoja. PNG- ja PDF-viennit voivat sisältää näytöllä näkyvää sijainti- tai tapahtumatietoa.",
+          "Macilla valitset tallennuspaikan. iPhone- ja iPad-laitteilla sovellus luo väliaikaisen viennin ja näyttää järjestelmän jakamislomakkeen. Viennin jälkeen sovelletaan valitsemasi kohteen tai jakamispalvelun yksityisyyskäytäntöjä. Sovellus ei lataa vientitiedostoja automaattisesti kehittäjän palvelimelle."
+        ]
+      },
+      "support_contact": {
+        "title": "Tukisähköposti ja GitHub Issues",
+        "paragraphs": [
+          "Jos lähetät sähköpostia tukeen, sähköpostiosoitteesi, viestisi ja mahdolliset liitteet käsitellään kehittäjän ja asianomaisten sähköpostipalveluntarjoajien toimesta tukipyyntösi käsittelyn yhteydessä. Älä lähetä henkilökohtaisia tai luottamuksellisia tietoja, joita ei tarvita tuen yhteydessä. Ota yhteyttä osoitteeseen {email}, jos sinulla on kysyttävää tukiviestin käsittelystä tai poistamisesta.",
+          "{issues_page} on julkinen. Sinun GitHub käyttäjänimesi, profiilitietosi ja lähettämäsi sisältö voivat olla näkyvissä muille ja niitä käsitellään {github_privacy} mukaan. Älä lähetä salasanoja, Apple IDs, API-avaimia, osoitettasi, tarkkaa nykyistä sijaintiasi tai muita henkilötietoja."
+        ]
+      },
+      "children": {
+        "title": "Lasten yksityisyys",
+        "paragraphs": [
+          "Sovellus ei ole suunniteltu keräämään henkilötietoja, eikä se tarjoa ikäprofiileja, tilejä, chat-toimintoa tai julkista julkaisemista sovelluksessa. Lapset ja huoltajat eivät saa lähettää henkilötietoja tukisähköpostin kautta tai julkiseen GitHub Issues. Huoltaja voi ottaa yhteyttä {email} kysymyksellä tukipalveluun lähetettyihin tietoihin liittyen."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Tämä verkkosivusto ja GitHub Pages",
+        "paragraphs": [
+          "Tämä sivusto ei lisää omia analytiikka-, mainos-, seurantakeksejä, syöttölomakkeita tai asiakaspuolen skriptejä. Se isännöidään GitHub Pages, joten GitHub voi käsitellä käyttö- ja muita teknisiä tietoja, joita tarvitaan palvelun toiminnan ja turvallisuuden varmistamiseksi. Katso {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Muutokset",
+        "paragraphs": [
+          "Jos sovelluksen tietojen käsittely muuttuu, tämä käytäntö ja sovellettavat App Store tietosuojaselosteet päivitetään ja päivitetty käytäntö julkaistaan tällä sivulla."
+        ]
+      },
+      "contact": {
+        "title": "Yhteystiedot",
+        "paragraphs": [
+          "Jos sinulla on kysyttävää tästä käytännöstä, lähetä sähköpostia osoitteeseen {email} tai käytä {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Tietosuoja"
+  },
+  "support": {
+    "meta_description": "Apua, usein kysytyt kysymykset, tietosuojaohjeet ja yhteystiedot {app_name}.",
+    "heading": "Tuki",
+    "lede": "Sovellus tukee iOS 17:ää ja iPadOS 17:ää tai uudempia sekä macOS 14:ää tai uudempaa.",
+    "contact_title": "Yhteystiedot",
+    "contact_intro": "Ongelman, sovelluksen käytöstä koskevan kysymyksen tai palautteen osalta ota meihin yhteyttä sähköpostitse tai julkisen GitHub Issues kautta.",
+    "email_button": "Sähköpostituki",
+    "issues_button": "Avaa GitHub Issues",
+    "contact_warning": "Älä lähetä salasanoja, Apple IDs, API-avaimia, tarpeettomia henkilötietoja, osoitettasi tai tarkkaa nykyistä sijaintiasi. GitHub Issues on julkinen, ja GitHub käyttäjänimesi, profiilitietosi ja viestisi saattavat olla nähtävillä muille.",
+    "diagnostics_title": "Tiedot, jotka auttavat tuessa",
+    "diagnostics_items": [
+      "Käytätkö iPhone, iPad vai Macia, ja laitteen malli",
+      "Käyttöjärjestelmän versio ja sovelluksen versio",
+      "Kyseinen auringon- tai kuunpimennys",
+      "Vaiheet ennen ongelmaa ja mahdollinen näytetty virhe"
+    ],
+    "privacy_note": "Sijainnin, viennin, sähköpostin ja GitHub Pages tiedot löydät lukemalla {privacy_page}.",
+    "faq_title": "Usein kysyttyjä kysymyksiä",
+    "faqs": {
+      "location_permission": {
+        "question": "Tarvitaanko sijaintilupa?",
+        "answer": "Ei. Voit napauttaa tai klikata karttaa, etsiä paikkaa tai syöttää leveys- ja pituusasteen. Sovellus pyytää Core Location lupaa vain sen jälkeen, kun valitset Nykyinen sijainti. Kartta-, haku- ja käänteisen geokoodauksen pyynnöt voidaan silti käsitellä Applen palveluissa."
+      },
+      "modern_maps": {
+        "question": "Miksi historiallinen tapahtuma käyttää nykyaikaista karttaa?",
+        "answer": "Taustalla käytetään nykyisiä Apple Maps -karttoja. Ne eivät rekonstruoi historiallisia tai tulevia rajoja, kaupunkeja, teitä tai rannikoita."
+      },
+      "model_differences": {
+        "question": "Miksi arvot voivat poiketa NASA:stä tai toisesta viitetaulukosta?",
+        "answer": "Tulokset voivat poiketa efemeridien, kuun reunan säteen, ΔT:n, Maan orientaation, maaston ja ilmakehän oletusten vuoksi. Tarkista sovelluksessa esitetyt laskentaolosuhteet ja lähteet. Sovellus ei takaa lopullisia arvoja havaintojen suunnitteluun, navigointiin, tieteellisiin johtopäätöksiin tai turvallisuuskriittisiin päätöksiin."
+      },
+      "lunar_colour": {
+        "question": "Onko kuunpimennyksen väri ennuste?",
+        "answer": "Ei. Punainen väri on kaaviollinen apuväline kuunpimennyksen etenemisen ymmärtämiseen. Se ei määritä historiallisen tai tulevan kuunpimennyksen ilmakehää tai todellista väriä."
+      },
+      "exports": {
+        "question": "Mitkä vientimuodot ovat käytettävissä?",
+        "answer": "Voit viedä valitun tapahtuman tiedot muotoon CSV tai JSON ja näytön tai ikkunan muotoon PNG tai PDF. Viennit voivat sisältää valitun paikan nimen, koordinaatit, aikavyöhykkeen tai muuta näytöllä näkyvää tietoa, joten tarkista sisältö ennen jakamista."
+      }
+    },
+    "footer": "{app_name} — Tuki"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

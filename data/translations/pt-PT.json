@@ -1,0 +1,151 @@
+{
+  "app_locale": "pt-PT",
+  "bcp47": "pt-PT",
+  "native_name": "português (Portugal)",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "política de privacidade",
+    "support_page": "página de suporte",
+    "apple_maps_privacy": "Apple Maps e Privacidade",
+    "apple_maps_terms": "termos do Apple Maps",
+    "github_privacy": "Declaração de Privacidade do GitHub",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Saltar para o conteúdo",
+    "overview": "Visão geral em português",
+    "support": "Suporte",
+    "privacy": "Privacidade",
+    "accessibility": "Acessibilidade em português",
+    "languages": "Idiomas",
+    "brand_home_aria": "Visão geral de {app_name} em português",
+    "privacy_eyebrow": "Política de Privacidade",
+    "support_eyebrow": "Suporte"
+  },
+  "privacy": {
+    "meta_description": "Política de privacidade de {app_name}, abrangendo localização, Apple Maps, armazenamento no dispositivo, exportações, contacto com o suporte e este site.",
+    "heading": "Política de Privacidade",
+    "lede": "Esta política aplica-se às versões para iPhone, iPad e Mac de {app_name}.",
+    "effective_date_label": "Data de entrada em vigor",
+    "effective_date": "29 de agosto de 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Práticas de dados na aplicação",
+        "paragraphs": [
+          "A aplicação não inclui publicidade operada pelo programador, seguimento entre aplicações, análise de utilização, SDK de análise de falhas, contas de início de sessão, subscrições, conversação ou funcionalidades de publicação pública. A aplicação não envia dados pessoais para um servidor operado pelo programador.",
+          "Os serviços da Apple, o GitHub Pages, os fornecedores de e-mail e um serviço de armazenamento ou partilha escolhido pelo utilizador podem processar informações de forma independente, conforme descrito abaixo."
+        ]
+      },
+      "location": {
+        "title": "Localização",
+        "paragraphs": [
+          "A aplicação solicita uma localização pontual apenas depois de o utilizador escolher Localização atual e conceder autorização no aviso do sistema. Utiliza a latitude e a longitude obtidas para definir o ponto de observação e não implementa o seguimento contínuo da localização.",
+          "A autorização é opcional. É possível selecionar um ponto no mapa, procurar um local ou introduzir a latitude e a longitude. Estas alternativas evitam a autorização do Core Location, mas os pedidos de mapa, pesquisa e geocodificação inversa podem continuar a ser processados pelos serviços da Apple."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "A aplicação utiliza o MapKit e o Apple Maps para apresentar mapas, procurar locais, efetuar geocodificação inversa e completar o fuso horário. Pedidos como a região visível do mapa, termos de pesquisa ou coordenadas podem ser processados pela Apple. A aplicação não contém uma rede personalizada que envie estes pedidos para um servidor operado pelo programador.",
+          "O tratamento destes pedidos pela Apple é descrito em {apple_maps_privacy} e nos {apple_maps_terms} aplicáveis."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Armazenamento no dispositivo",
+        "paragraphs": [
+          "As definições de apresentação são guardadas em UserDefaults. Os locais de observação favoritos podem incluir um nome, latitude, longitude, identificador de fuso horário e um identificador gerado pela aplicação, sendo guardados numa base de dados SQLite no dispositivo.",
+          "Um ponto de observação selecionado e os resultados de cálculo específicos da localização também podem ficar em cache no dispositivo, mesmo quando o ponto não é guardado como favorito. Essa cache pode conter coordenadas e informações do evento ou do modelo.",
+          "A aplicação não disponibiliza sincronização de contas, sincronização com o CloudKit nem cópia de segurança para um servidor do programador. O comportamento das cópias de segurança, da descarga da aplicação e da remoção varia consoante o sistema operativo, pelo que remover a aplicação não deve ser considerado uma garantia de que todas as cópias foram eliminadas."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Exportação e partilha",
+        "paragraphs": [
+          "As exportações CSV e JSON podem incluir o nome do local de observação, latitude, longitude e fuso horário, além dos dados do eclipse. As exportações PNG e PDF podem incluir informações de localização ou do evento visíveis no ecrã.",
+          "No Mac, o utilizador escolhe o local onde guardar. No iPhone e iPad, a aplicação cria uma exportação temporária e apresenta a folha de partilha do sistema. Após a exportação, aplicam-se as práticas de privacidade do destino ou serviço de partilha escolhido. A aplicação não carrega automaticamente as exportações para um servidor do programador."
+        ]
+      },
+      "support_contact": {
+        "title": "E-mail de suporte e GitHub Issues",
+        "paragraphs": [
+          "Ao enviar um e-mail para o suporte, o endereço de e-mail, a mensagem e quaisquer anexos são processados pelo programador e pelos fornecedores de e-mail relevantes para tratar o pedido de suporte. Não envie informações pessoais ou confidenciais que não sejam necessárias para o suporte. Contacte {email} para questões sobre o tratamento ou a eliminação de uma mensagem de suporte.",
+          "O {issues_page} é público. O nome de utilizador do GitHub, as informações do perfil e os conteúdos enviados podem ser visíveis para outras pessoas e são tratados ao abrigo da {github_privacy}. Não publique palavras-passe, Apple IDs, chaves de API, a sua morada, a sua localização atual exata ou outras informações pessoais."
+        ]
+      },
+      "children": {
+        "title": "Privacidade das crianças",
+        "paragraphs": [
+          "A aplicação não foi concebida para recolher dados pessoais e não disponibiliza perfis de idade, contas, conversação ou publicação pública dentro da aplicação. As crianças e os seus responsáveis não devem enviar informações pessoais através do e-mail de suporte ou do GitHub Issues público. Um responsável pode contactar {email} para questões sobre informações enviadas para suporte."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Este site e o GitHub Pages",
+        "paragraphs": [
+          "Este site não adiciona análise, publicidade, cookies de seguimento, formulários de introdução de dados ou scripts do lado do cliente próprios. É alojado no GitHub Pages, pelo que o GitHub pode processar registos de acesso e outras informações técnicas necessárias para operar e proteger o serviço. Consulte a {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Alterações",
+        "paragraphs": [
+          "Se as práticas de dados da aplicação forem alteradas, esta política e as respostas de privacidade aplicáveis na App Store serão atualizadas, e a política revista será publicada nesta página."
+        ]
+      },
+      "contact": {
+        "title": "Contacto",
+        "paragraphs": [
+          "Para questões sobre esta política, envie um e-mail para {email} ou utilize a {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Privacidade"
+  },
+  "support": {
+    "meta_description": "Ajuda, perguntas frequentes, orientações de privacidade e opções de contacto para {app_name}.",
+    "heading": "Suporte",
+    "lede": "A aplicação é compatível com iOS e iPadOS 17 ou posterior e macOS 14 ou posterior.",
+    "contact_title": "Contacto",
+    "contact_intro": "Para comunicar um problema, esclarecer uma dúvida sobre a utilização da aplicação ou enviar comentários, contacte-nos por e-mail ou através do GitHub Issues público.",
+    "email_button": "Enviar e-mail ao suporte",
+    "issues_button": "Abrir o GitHub Issues",
+    "contact_warning": "Não envie palavras-passe, Apple IDs, chaves de API, informações pessoais desnecessárias, a sua morada ou a sua localização atual exata. O GitHub Issues é público, e o seu nome de utilizador do GitHub, as informações do perfil e a publicação podem ser visíveis para outras pessoas.",
+    "diagnostics_title": "Informações úteis para o suporte",
+    "diagnostics_items": [
+      "Se utiliza um iPhone, iPad ou Mac, e o modelo do dispositivo",
+      "A versão do sistema operativo e a versão da aplicação",
+      "O evento de eclipse solar ou lunar em questão",
+      "Os passos anteriores ao problema e qualquer erro apresentado"
+    ],
+    "privacy_note": "Para obter detalhes sobre localização, exportações, e-mail e GitHub Pages, leia a {privacy_page}.",
+    "faq_title": "Perguntas frequentes",
+    "faqs": {
+      "location_permission": {
+        "question": "É necessária autorização de localização?",
+        "answer": "Não. Pode tocar ou clicar no mapa, procurar um local ou introduzir a latitude e a longitude. A aplicação só solicita autorização do Core Location depois de escolher Localização atual. Os pedidos de mapa, pesquisa e geocodificação inversa podem continuar a ser processados pelos serviços da Apple."
+      },
+      "modern_maps": {
+        "question": "Porque é que um evento histórico utiliza um mapa moderno?",
+        "answer": "O fundo é o Apple Maps atual. Não reconstrói fronteiras, cidades, estradas ou linhas de costa históricas ou futuras."
+      },
+      "model_differences": {
+        "question": "Porque podem os valores ser diferentes dos da NASA ou de outra tabela de referência?",
+        "answer": "Os resultados podem variar devido às efemérides, ao raio do limbo lunar, a ΔT, à orientação da Terra, ao terreno e aos pressupostos atmosféricos. Consulte as condições de cálculo e as fontes apresentadas na aplicação. A aplicação não garante valores definitivos para planeamento de observações, navegação, conclusões científicas ou decisões críticas para a segurança."
+      },
+      "lunar_colour": {
+        "question": "A cor do eclipse lunar é uma previsão?",
+        "answer": "Não. A cor vermelha é um recurso esquemático para compreender a progressão do eclipse. Não determina a atmosfera nem a cor real de um eclipse histórico ou futuro."
+      },
+      "exports": {
+        "question": "Que formatos de exportação estão disponíveis?",
+        "answer": "Pode exportar os dados do evento selecionado em CSV ou JSON e o ecrã ou a janela em PNG ou PDF. As exportações podem incluir o nome do local selecionado, coordenadas, fuso horário ou outras informações visíveis no ecrã; verifique o conteúdo antes de o partilhar."
+      }
+    },
+    "footer": "{app_name} — Suporte"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}

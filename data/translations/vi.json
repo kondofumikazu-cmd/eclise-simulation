@@ -1,0 +1,151 @@
+{
+  "app_locale": "vi",
+  "bcp47": "vi",
+  "native_name": "Tiếng Việt",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "chính sách bảo mật",
+    "support_page": "trang hỗ trợ",
+    "apple_maps_privacy": "Apple Maps & Quyền riêng tư",
+    "apple_maps_terms": "Điều khoản Apple Maps",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Chuyển tới nội dung",
+    "overview": "Tổng quan bằng tiếng Việt",
+    "support": "Hỗ trợ",
+    "privacy": "Quyền riêng tư",
+    "accessibility": "Khả năng tiếp cận bằng tiếng Việt",
+    "languages": "Ngôn ngữ",
+    "brand_home_aria": "{app_name} Tổng quan về tiếng Việt",
+    "privacy_eyebrow": "Chính sách quyền riêng tư",
+    "support_eyebrow": "Hỗ trợ"
+  },
+  "privacy": {
+    "meta_description": "Chính sách quyền riêng tư dành cho {app_name}, bao gồm vị trí, Apple Maps, bộ nhớ trên thiết bị, xuất, liên hệ hỗ trợ và trang web này.",
+    "heading": "Chính sách quyền riêng tư",
+    "lede": "Chính sách này áp dụng cho các phiên bản iPhone, iPad và Mac của {app_name}.",
+    "effective_date_label": "Ngày có hiệu lực",
+    "effective_date": "29 tháng 8 năm 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Thực hành dữ liệu trong ứng dụng",
+        "paragraphs": [
+          "Ứng dụng không bao gồm quảng cáo do nhà phát triển vận hành, theo dõi ứng dụng chéo, phân tích sử dụng, phân tích sự cố SDKs, tài khoản đăng nhập, đăng ký, trò chuyện hoặc tính năng đăng công khai. Ứng dụng không gửi dữ liệu cá nhân đến máy chủ do nhà phát triển vận hành.",
+          "Các dịch vụ Apple, GitHub Pages, nhà cung cấp email và dịch vụ lưu hoặc chia sẻ mà bạn chọn có thể xử lý thông tin một cách độc lập như được mô tả bên dưới."
+        ]
+      },
+      "location": {
+        "title": "Vị trí",
+        "paragraphs": [
+          "Ứng dụng chỉ yêu cầu vị trí một lần sau khi bạn chọn Vị trí hiện tại và cấp quyền trong lời nhắc hệ thống. Nó sử dụng vĩ độ và kinh độ thu được để đặt điểm quan sát và không thực hiện theo dõi vị trí liên tục.",
+          "Quyền là tùy chọn. Bạn có thể chọn một điểm trên bản đồ, tìm kiếm địa điểm hoặc nhập vĩ độ và kinh độ. Các lựa chọn thay thế này tránh sự cho phép của Core Location, nhưng các yêu cầu về bản đồ, tìm kiếm và mã hóa địa lý ngược vẫn có thể được xử lý bởi các dịch vụ Apple."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Ứng dụng sử dụng MapKit và Apple Maps để hiển thị bản đồ, tìm kiếm địa điểm, mã hóa địa lý ngược và hoàn thành múi giờ. Các yêu cầu như vùng bản đồ hiển thị, cụm từ tìm kiếm hoặc tọa độ có thể được Apple xử lý. Ứng dụng không chứa mạng tùy chỉnh gửi các yêu cầu này đến máy chủ do nhà phát triển vận hành.",
+          "Việc xử lý các yêu cầu này của Apple được mô tả trong {apple_maps_privacy} và {apple_maps_terms} hiện hành."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Bộ nhớ trên thiết bị",
+        "paragraphs": [
+          "Cài đặt hiển thị được lưu trữ trong UserDefaults. Các vị trí quan sát yêu thích có thể bao gồm tên, vĩ độ, kinh độ, số nhận dạng múi giờ và số nhận dạng do ứng dụng tạo và được lưu trữ trong cơ sở dữ liệu SQLite trên thiết bị.",
+          "Điểm quan sát đã chọn và kết quả tính toán theo vị trí cụ thể cũng có thể được lưu vào bộ nhớ đệm trên thiết bị ngay cả khi điểm đó không được lưu làm mục ưa thích. Bộ đệm đó có thể chứa tọa độ và thông tin sự kiện hoặc mô hình.",
+          "Ứng dụng không cung cấp tính năng đồng bộ hóa tài khoản, đồng bộ hóa CloudKit hoặc sao lưu vào máy chủ của nhà phát triển. Hành vi sao lưu, giảm tải và xóa của hệ điều hành khác nhau, do đó, việc xóa ứng dụng không được coi là sự đảm bảo rằng mọi bản sao đều đã bị xóa."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Xuất và chia sẻ",
+        "paragraphs": [
+          "Các bản xuất CSV và JSON có thể bao gồm tên vị trí quan sát, vĩ độ, kinh độ và múi giờ cũng như dữ liệu nhật thực và nguyệt thực. Các bản xuất PNG và PDF có thể bao gồm thông tin vị trí hoặc sự kiện hiển thị trên màn hình.",
+          "Trên Mac, bạn chọn vị trí lưu. Trên iPhone và iPad, ứng dụng tạo bản xuất tạm thời và hiển thị bảng chia sẻ hệ thống. Sau khi xuất, cách thức xử lý quyền riêng tư của đích đến hoặc dịch vụ chia sẻ mà bạn chọn sẽ được áp dụng. Ứng dụng không tự động tải các bản xuất lên máy chủ của nhà phát triển."
+        ]
+      },
+      "support_contact": {
+        "title": "Email hỗ trợ và GitHub Issues",
+        "paragraphs": [
+          "Nếu bạn gửi email cho bộ phận hỗ trợ, địa chỉ email, tin nhắn và mọi tệp đính kèm của bạn sẽ được nhà phát triển và nhà cung cấp email có liên quan xử lý để giải quyết yêu cầu hỗ trợ. Không gửi thông tin cá nhân hoặc bí mật không cần thiết để được hỗ trợ. Liên hệ với {email} nếu có câu hỏi về cách xử lý hoặc xóa tin nhắn hỗ trợ.",
+          "{issues_page} là công khai. Tên người dùng, thông tin hồ sơ và nội dung đã gửi GitHub của bạn có thể hiển thị với người khác và được xử lý theo {github_privacy}. Không đăng mật khẩu, Apple IDs, API keys, địa chỉ, vị trí hiện tại chính xác của bạn hoặc thông tin cá nhân khác."
+        ]
+      },
+      "children": {
+        "title": "Quyền riêng tư của trẻ em",
+        "paragraphs": [
+          "Ứng dụng không được thiết kế để thu thập dữ liệu cá nhân và không cung cấp hồ sơ độ tuổi, tài khoản, trò chuyện hoặc đăng công khai bên trong ứng dụng. Trẻ em và người giám hộ không nên gửi thông tin cá nhân qua email hỗ trợ hoặc GitHub Issues công khai. Người giám hộ có thể liên hệ với {email} nếu có thắc mắc về thông tin được gửi để hỗ trợ."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Trang web này và GitHub Pages",
+        "paragraphs": [
+          "Trang web này không thêm các phân tích, quảng cáo, cookie theo dõi, biểu mẫu nhập hoặc tập lệnh phía máy khách của riêng mình. Nó được lưu trữ bởi GitHub Pages, vì vậy GitHub có thể xử lý nhật ký truy cập và thông tin kỹ thuật khác cần thiết để vận hành và bảo mật dịch vụ. Xem {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Thay đổi",
+        "paragraphs": [
+          "Nếu cách thực hành dữ liệu của ứng dụng thay đổi, chính sách này và phản hồi về quyền riêng tư App Store hiện hành sẽ được cập nhật và chính sách sửa đổi sẽ được xuất bản trên trang này."
+        ]
+      },
+      "contact": {
+        "title": "Liên hệ",
+        "paragraphs": [
+          "Nếu có câu hỏi về chính sách này, hãy gửi email đến {email} hoặc sử dụng {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Quyền riêng tư"
+  },
+  "support": {
+    "meta_description": "Trợ giúp, các câu hỏi thường gặp, hướng dẫn về quyền riêng tư và các tùy chọn liên hệ dành cho {app_name}.",
+    "heading": "Hỗ trợ",
+    "lede": "Ứng dụng hỗ trợ iOS và iPadOS 17 trở lên và macOS 14 trở lên.",
+    "contact_title": "Liên hệ",
+    "contact_intro": "Nếu có vấn đề, thắc mắc về việc sử dụng ứng dụng hoặc phản hồi, hãy liên hệ với chúng tôi qua email hoặc GitHub Issues công khai.",
+    "email_button": "Hỗ trợ qua email",
+    "issues_button": "Mở GitHub Issues",
+    "contact_warning": "Không gửi mật khẩu, Apple IDs, API keys, thông tin cá nhân không cần thiết, địa chỉ hoặc vị trí hiện tại chính xác của bạn. GitHub Issues là công khai và tên người dùng, thông tin hồ sơ và bài đăng GitHub của bạn có thể hiển thị với người khác.",
+    "diagnostics_title": "Thông tin hỗ trợ",
+    "diagnostics_items": [
+      "Cho dù bạn sử dụng iPhone, iPad hay Mac và kiểu thiết bị",
+      "Phiên bản hệ điều hành và phiên bản ứng dụng",
+      "Sự kiện nhật thực hoặc nguyệt thực liên quan",
+      "Các bước trước khi xảy ra sự cố và bất kỳ lỗi nào được hiển thị"
+    ],
+    "privacy_note": "Để biết chi tiết về vị trí, xuất, email và GitHub Pages, hãy đọc {privacy_page}.",
+    "faq_title": "Câu hỏi thường gặp",
+    "faqs": {
+      "location_permission": {
+        "question": "Có cần phải có quyền truy cập vị trí không?",
+        "answer": "Không. Bạn có thể nhấn hoặc nhấp vào bản đồ, tìm kiếm địa điểm hoặc nhập vĩ độ và kinh độ. Ứng dụng chỉ yêu cầu quyền Core Location sau khi bạn chọn Vị trí hiện tại. Các yêu cầu về bản đồ, tìm kiếm và mã hóa địa lý ngược vẫn có thể được xử lý bởi các dịch vụ Apple."
+      },
+      "modern_maps": {
+        "question": "Tại sao một sự kiện lịch sử lại sử dụng bản đồ hiện đại?",
+        "answer": "Nền là Apple Maps ngày nay. Nó không tái tạo lại biên giới, thành phố, đường giao thông hoặc bờ biển trong lịch sử hoặc tương lai."
+      },
+      "model_differences": {
+        "question": "Tại sao các giá trị có thể khác với NASA hoặc bảng tham chiếu khác?",
+        "answer": "Kết quả có thể khác nhau do lịch thiên văn, bán kính rìa Mặt Trăng, ΔT, định hướng Trái Đất, địa hình và các giả định về khí quyển. Xem lại các điều kiện và nguồn tính toán được hiển thị trong ứng dụng. Ứng dụng không bảo đảm các giá trị mang tính kết luận cho việc lập kế hoạch quan sát, điều hướng, kết luận khoa học hoặc các quyết định quan trọng về an toàn."
+      },
+      "lunar_colour": {
+        "question": "Màu sắc của nguyệt thực có phải là một dự đoán không?",
+        "answer": "Không. Màu đỏ chỉ là một cách thể hiện mang tính sơ đồ để giúp hiểu diễn biến của nguyệt thực. Màu này không xác định tình trạng khí quyển hoặc màu sắc thực tế của một lần nguyệt thực trong quá khứ hay tương lai."
+      },
+      "exports": {
+        "question": "Có những định dạng xuất nào?",
+        "answer": "Bạn có thể xuất dữ liệu sự kiện đã chọn dưới dạng CSV hoặc JSON và màn hình hoặc cửa sổ dưới dạng PNG hoặc PDF. Việc xuất có thể bao gồm tên, tọa độ, múi giờ của vị trí đã chọn hoặc thông tin khác hiển thị trên màn hình, vì vậy hãy kiểm tra nội dung trước khi chia sẻ."
+      }
+    },
+    "footer": "{app_name} — Hỗ trợ"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}

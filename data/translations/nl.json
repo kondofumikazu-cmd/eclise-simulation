@@ -1,0 +1,151 @@
+{
+  "app_locale": "nl",
+  "bcp47": "nl",
+  "native_name": "Nederlands",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "privacybeleid",
+    "support_page": "ondersteuningspagina",
+    "apple_maps_privacy": "Apple Maps & Privacy",
+    "apple_maps_terms": "Apple Maps voorwaarden",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Overslaan naar inhoud",
+    "overview": "Overzicht in het Engels",
+    "support": "Ondersteuning",
+    "privacy": "Privacy",
+    "accessibility": "Toegankelijkheid in het Engels",
+    "languages": "Talen",
+    "brand_home_aria": "{app_name} Engels overzicht",
+    "privacy_eyebrow": "Privacybeleid",
+    "support_eyebrow": "Ondersteuning"
+  },
+  "privacy": {
+    "meta_description": "Privacybeleid voor {app_name}, inclusief locatie, Apple Maps, opslag op apparaat, exports, ondersteuningscontact en deze website.",
+    "heading": "Privacybeleid",
+    "lede": "Dit beleid is van toepassing op de iPhone, iPad en Mac-versies van {app_name}.",
+    "effective_date_label": "Ingangsdatum",
+    "effective_date": "29 augustus 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Gegevenspraktijken in de app",
+        "paragraphs": [
+          "De app bevat geen door de ontwikkelaar beheerde advertenties, cross-app tracking, gebruiksstatistieken, crash-analyse SDK's, inlogaccounts, abonnementen, chat- of openbare berichtfuncties. De app stuurt geen persoonlijke gegevens naar een door de ontwikkelaar beheerde server.",
+          "Apple-diensten, GitHub Pages, e-mailproviders en een door jou gekozen opslag- of deelservice kunnen informatie onafhankelijk verwerken zoals hieronder beschreven."
+        ]
+      },
+      "location": {
+        "title": "Locatie",
+        "paragraphs": [
+          "De app vraagt om een eenmalige locatie alleen nadat je Huidige Locatie hebt gekozen en toestemming hebt gegeven in de systeemprompt. Het gebruikt de resulterende breedte- en lengtegraden om het observatiepunt in te stellen en implementeert geen continue locatietracking.",
+          "Toestemming is optioneel. Je kunt een punt op de kaart selecteren, zoeken naar een plaats of breedte- en lengtegraden invoeren. Deze alternatieven vereisen geen Core Location-toestemming, maar kaart-, zoek- en reverse-geocodingverzoeken kunnen nog steeds door Apple-diensten worden verwerkt."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "De app gebruikt MapKit en Apple Maps voor het weergeven van kaarten, het zoeken naar plaatsen, reverse geocoding en tijdzone-aanvulling. Verzoeken zoals het zichtbare kaartgebied, zoektermen of coördinaten kunnen door Apple worden verwerkt. De app bevat geen aangepaste netwerken die deze verzoeken naar een door de ontwikkelaar beheerde server sturen.",
+          "De verwerking van deze verzoeken door Apple wordt beschreven in {apple_maps_privacy} en de toepasselijke {apple_maps_terms}."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Opslag op het apparaat",
+        "paragraphs": [
+          "Weergave-instellingen worden opgeslagen in UserDefaults. Favoriete observatieplaatsen kunnen een naam, breedtegraad, lengtegraad, tijdzone-identificator en een door de app gegenereerde identificator bevatten, en worden opgeslagen in een SQLite-database op het apparaat.",
+          "Een geselecteerd observatiepunt en locatie-specifieke berekeningsresultaten kunnen ook op het apparaat worden gecachet, zelfs wanneer het punt niet als favoriet is opgeslagen. Die cache kan coördinaten en gegevens over gebeurtenissen of modellen bevatten.",
+          "De app biedt geen eigen account-synchronisatie, CloudKit synchronisatie of back-up naar een ontwikkelaarsserver. Back-up, offloading en verwijderingsgedrag van het besturingssysteem variëren, dus het verwijderen van de app mag niet worden gezien als een garantie dat elke kopie is verwijderd."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Exporteren en delen",
+        "paragraphs": [
+          "CSV- en JSON-exporten kunnen de naam, breedtegraad, lengtegraad en tijdzone van een observatielocatie bevatten, evenals gegevens over zons- of maansverduisteringen. PNG- en PDF-exporten kunnen locatie- of gebeurtenisinformatie bevatten die zichtbaar is op het scherm.",
+          "Op een Mac kies je de locatie om op te slaan. Op iPhone en iPad maakt de app een tijdelijke export en toont het systeemgedeeldblad. Na export zijn de privacypraktijken van de bestemming of de gekozen deelservice van toepassing. De app uploadt exports niet automatisch naar een server van de ontwikkelaar."
+        ]
+      },
+      "support_contact": {
+        "title": "Ondersteunings-e-mail en GitHub Issues",
+        "paragraphs": [
+          "Als je support e-mailt, worden je e-mailadres, bericht en eventuele bijlagen verwerkt door de ontwikkelaar en de relevante e-mailproviders in verband met de afhandeling van je supportaanvraag. Stuur geen persoonlijke of vertrouwelijke informatie die niet nodig is voor ondersteuning. Neem contact op met {email} als je een vraag hebt over de verwerking of verwijdering van een supportbericht.",
+          "{issues_page} is openbaar. Je GitHub-gebruikersnaam, profielinformatie en ingediende inhoud kunnen zichtbaar zijn voor anderen en worden verwerkt volgens {github_privacy}. Plaats geen wachtwoorden, Apple ID's, API-sleutels, je adres, je exacte huidige locatie of andere persoonlijke informatie."
+        ]
+      },
+      "children": {
+        "title": "Privacy van kinderen",
+        "paragraphs": [
+          "De app is niet ontworpen om persoonlijke gegevens te verzamelen en biedt geen leeftijdsprofielen, accounts, chat of openbare berichten in de app. Kinderen en voogden mogen geen persoonlijke informatie verzenden via ondersteuningsmail of openbaar GitHub Issues. Een voogd kan contact opnemen met {email} met een vraag over informatie die voor ondersteuning is verzonden."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Deze website en GitHub Pages",
+        "paragraphs": [
+          "Deze site voegt geen eigen analyses, advertenties, trackingcookies, invoerformulieren of scripts aan de clientzijde toe. Het wordt gehost door GitHub Pages, dus GitHub kan toegangslogboeken en andere technische informatie verwerken die nodig is om de dienst te exploiteren en te beveiligen. Zie {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Wijzigingen",
+        "paragraphs": [
+          "Als de gegevenspraktijken van de app veranderen, zullen dit beleid en de toepasselijke privacyreacties van App Store worden bijgewerkt en het herziene beleid zal op deze pagina worden gepubliceerd."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "paragraphs": [
+          "Voor een vraag over dit beleid, e-mail {email} of gebruik de {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Privacy"
+  },
+  "support": {
+    "meta_description": "Hulp, veelgestelde vragen, privacyadvies en contactopties voor {app_name}.",
+    "heading": "Ondersteuning",
+    "lede": "De app ondersteunt iOS en iPadOS 17 of hoger en macOS 14 of hoger.",
+    "contact_title": "Contact",
+    "contact_intro": "Voor een probleem, een vraag over het gebruik van de app of feedback, neem contact met ons op via e-mail of openbare GitHub Issues.",
+    "email_button": "E-mail ondersteuning",
+    "issues_button": "Open GitHub Issues",
+    "contact_warning": "Verstuur geen wachtwoorden, Apple ID's, API-sleutels, onnodige persoonlijke informatie, je adres of je exacte huidige locatie. GitHub Issues is openbaar, en je GitHub-gebruikersnaam, profielinformatie en bericht kunnen zichtbaar zijn voor anderen.",
+    "diagnostics_title": "Informatie die helpt bij ondersteuning",
+    "diagnostics_items": [
+      "Of u een iPhone, iPad, of Mac gebruikt, en het apparaattype",
+      "De versie van het besturingssysteem en de app-versie",
+      "De betreffende zons- of maansverduistering",
+      "De stappen vóór het probleem en eventuele weergegeven fout"
+    ],
+    "privacy_note": "Voor details over locatie, export, e-mail en GitHub Pages, lees de {privacy_page}.",
+    "faq_title": "Veelgestelde vragen",
+    "faqs": {
+      "location_permission": {
+        "question": "Is locatiepermissie vereist?",
+        "answer": "Nee. U kunt op de kaart tikken of klikken, een plaats zoeken of breedte- en lengtegraad invoeren. De app vraagt Core Location toestemming pas nadat u Huidige Locatie kiest. Kaart-, zoek- en omgekeerde-geocoderingverzoeken kunnen nog steeds door Apple-services worden verwerkt."
+      },
+      "modern_maps": {
+        "question": "Waarom gebruikt een historisch evenement een moderne kaart?",
+        "answer": "De achtergrond gebruikt de huidige kaarten van Apple Maps. Deze reconstrueren geen historische of toekomstige grenzen, steden, wegen of kustlijnen."
+      },
+      "model_differences": {
+        "question": "Waarom kunnen waarden afwijken van NASA of een andere referentietabel?",
+        "answer": "Resultaten kunnen verschillen door de efemeride, de straal van de maanrand, ΔT, de oriëntatie van de aarde, het terrein en atmosferische aannames. Bekijk de berekeningsvoorwaarden en bronnen in de app. De app garandeert geen definitieve waarden voor observatieplanning, navigatie, wetenschappelijke conclusies of veiligheidskritieke beslissingen."
+      },
+      "lunar_colour": {
+        "question": "Is de kleur van een maaneclips een voorspelling?",
+        "answer": "Nee. De rode kleur is een schematische hulp om de voortgang van een eclips te begrijpen. Het bepaalt niet de atmosfeer of de daadwerkelijke kleur van een historische of toekomstige eclips."
+      },
+      "exports": {
+        "question": "Welke exportformaten zijn beschikbaar?",
+        "answer": "Je kunt gegevens van een geselecteerd evenement exporteren als CSV of JSON en het scherm of venster als PNG of PDF. Exporten kunnen de naam van de geselecteerde locatie, coördinaten, tijdzone of andere informatie zichtbaar op het scherm bevatten, dus controleer de inhoud voordat je deze deelt."
+      }
+    },
+    "footer": "{app_name} — Ondersteuning"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "app_locale": "hu",
+  "bcp47": "hu",
+  "native_name": "magyar",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "adatvédelmi irányelvek",
+    "support_page": "támogatási oldal",
+    "apple_maps_privacy": "Apple Maps & Adatvédelem",
+    "apple_maps_terms": "Apple Maps feltételek",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Ugrás a tartalomra",
+    "overview": "Áttekintés angolul",
+    "support": "Támogatás",
+    "privacy": "Adatvédelem",
+    "accessibility": "Hozzáférhetőség angolul",
+    "languages": "Nyelvek",
+    "brand_home_aria": "{app_name} Angol áttekintés",
+    "privacy_eyebrow": "Adatvédelmi irányelvek",
+    "support_eyebrow": "Támogatás"
+  },
+  "privacy": {
+    "meta_description": "A(z) {app_name} adatvédelmi irányelvei, amelyek helyet, Apple Maps, eszközön tárolást, exportálást, támogatási kapcsolatot és ezt a weboldalt fedik le.",
+    "heading": "Adatvédelmi irányelvek",
+    "lede": "Ez az irányelv a {app_name} iPhone-, iPad- és Mac-verzióira vonatkozik.",
+    "effective_date_label": "Hatálybalépés dátuma",
+    "effective_date": "2026. augusztus 29.",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Adatkezelési gyakorlatok az alkalmazásban",
+        "paragraphs": [
+          "Az alkalmazás nem tartalmaz fejlesztő által működtetett hirdetéseket, alkalmazások közötti nyomkövetést, használati elemzést, összeomlás-elemző SDK-kat, bejelentkezési fiókokat, előfizetéseket, csevegést vagy nyilvános posztolási funkciókat. Az alkalmazás nem küld személyes adatokat a fejlesztő által működtetett szerverre.",
+          "Az Apple szolgáltatásai, GitHub Pages, e-mail szolgáltatók és a választott mentési vagy megosztási szolgáltatás függetlenül feldolgozhatják az információkat az alább leírtak szerint."
+        ]
+      },
+      "location": {
+        "title": "Hely",
+        "paragraphs": [
+          "Az alkalmazás csak akkor kér egyszeri helymeghatározást, miután kiválasztotta a Jelenlegi hely lehetőséget, és engedélyt adott a rendszerüzenetben. A kapott szélességi és hosszúsági fokot a megfigyelési pont beállításához használja, és nem végez folyamatos helykövetést.",
+          "Az engedély opcionális. Kiválaszthat egy pontot a térképen, kereshet egy helyet, vagy megadhatja a szélességi és hosszúsági fokot. Ezekhez az alternatívákhoz nincs szükség Core Location-engedélyre, de a térképes, keresési és fordított geokódolási kéréseket az Apple szolgáltatásai továbbra is feldolgozhatják."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Az alkalmazás MapKit és Apple Maps szolgáltatásokat használ a térkép megjelenítéséhez, helykereséshez, fordított geokódoláshoz és időzóna-kiegészítéshez. Olyan kéréseket, mint a látható térképrész, keresési kifejezések vagy koordináták, az Apple feldolgozhat. Az alkalmazás nem tartalmaz saját hálózati kommunikációt, amely ezeket a kéréseket fejlesztő által üzemeltetett szerverre küldené.",
+          "Az Apple ezen kérések kezelését a {apple_maps_privacy} és az alkalmazandó {apple_maps_terms} írja le."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Helyben történő tárolás",
+        "paragraphs": [
+          "A megjelenítési beállítások a UserDefaults szolgáltatásban tárolódnak. A kedvenc megfigyelőhelyek tartalmazhatnak nevet, szélességi és hosszúsági fokot, időzóna-azonosítót és az alkalmazás által generált azonosítót, és az eszközön található SQLite adatbázisban tárolódnak.",
+          "Egy kiválasztott megfigyelési pont és a helyspecifikus számítási eredmények is tárolhatók az eszközön, még akkor is, ha a pont nincs elmentve a kedvencek közé. Ez a gyorsítótár tartalmazhat koordinátákat és esemény- vagy modellinformációkat.",
+          "Az alkalmazás nem biztosít saját fiókszinkronizálást, CloudKit szinkront vagy biztonsági mentést a fejlesztői szerverre. A számítógépes rendszer által végzett mentés, áthelyezés és eltávolítás viselkedése változó, ezért az alkalmazás eltávolítása nem garantálja, hogy minden másolat törlődött."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Exportálás és megosztás",
+        "paragraphs": [
+          "A CSV- és JSON-exportok tartalmazhatják a megfigyelési hely nevét, szélességi és hosszúsági fokát, az időzónát, valamint nap- vagy holdfogyatkozási adatokat. A PNG- és PDF-exportok tartalmazhatnak a képernyőn látható hely- vagy eseményinformációkat.",
+          "Mac számítógépen kiválaszthatja a mentés helyét. iPhone és iPad rendszereken az alkalmazás létrehoz egy ideiglenes exportot, és megjeleníti a rendszer megosztási lapját. Az exportálás után a célhely vagy a megosztási szolgáltatás adatvédelmi gyakorlata érvényes. Az alkalmazás nem tölti fel automatikusan az exportokat a fejlesztő szerverére."
+        ]
+      },
+      "support_contact": {
+        "title": "Támogatási e-mail és GitHub Issues",
+        "paragraphs": [
+          "Ha e-mailt küld a támogatásnak, az Ön e-mail címe, üzenete és minden melléklete feldolgozásra kerül a fejlesztő és az érintett e-mail szolgáltatók által a támogatási kérelme kezelésével kapcsolatban. Ne küldjön személyes vagy bizalmas információt, amely nem szükséges a támogatáshoz. Lépjen kapcsolatba {email}-val, ha kérdése van egy támogatási üzenet kezelésével vagy törlésével kapcsolatban.",
+          "{issues_page} nyilvános. Az Ön GitHub felhasználóneve, profilinformációi és beküldött tartalmai mások számára láthatóak lehetnek, és a {github_privacy} szerint kerülnek feldolgozásra. Ne posztoljon jelszavakat, Apple IDs, API kulcsokat, címét, pontos tartózkodási helyét vagy egyéb személyes adatot."
+        ]
+      },
+      "children": {
+        "title": "Gyermekek magánélete",
+        "paragraphs": [
+          "Az alkalmazás nem személyes adatok gyűjtésére készült, és nem biztosít életkori profilokat, fiókokat, csevegést vagy nyilvános posztolást az alkalmazáson belül. A gyermekeknek és gondviselőiknek nem szabad személyes adatokat küldeniük az ügyfélszolgálati e-mailen vagy nyilvános GitHub Issues-n. Egy gondviselő kapcsolatba léphet {email}-nel a támogatás céljából küldött információkkal kapcsolatban."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Ez a weboldal és GitHub Pages",
+        "paragraphs": [
+          "Ez az oldal nem ad hozzá saját elemző, hirdetési, nyomkövető sütiket, bevitelű űrlapokat vagy kliens oldali szkripteket. A GitHub Pages szolgáltatja a tárhelyét, így a GitHub kezelheti a hozzáférési naplókat és más technikai információkat, amelyek szükségesek a szolgáltatás működtetéséhez és biztonságához. Lásd: {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Változások",
+        "paragraphs": [
+          "Ha az alkalmazás adatkezelési gyakorlata megváltozik, ez a szabályzat és az alkalmazandó App Store adatvédelmi válaszok frissülni fognak, és a módosított szabályzat ezen az oldalon lesz közzétéve."
+        ]
+      },
+      "contact": {
+        "title": "Kapcsolat",
+        "paragraphs": [
+          "Ha kérdése van ezzel a szabályzattal kapcsolatban, küldjön e-mailt a {email} címre, vagy használja a {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Adatvédelem"
+  },
+  "support": {
+    "meta_description": "Segítség, gyakran ismételt kérdések, adatvédelmi útmutató és kapcsolati lehetőségek a {app_name} számára.",
+    "heading": "Támogatás",
+    "lede": "Az alkalmazás támogatja az iOS-t és a iPadOS 17 vagy újabb verziót, valamint a macOS 14 vagy újabb verziót.",
+    "contact_title": "Kapcsolat",
+    "contact_intro": "Probléma, kérdés az alkalmazás használatával kapcsolatban, vagy visszajelzés esetén lépjen kapcsolatba velünk e-mailben vagy nyilvános GitHub Issues.",
+    "email_button": "E-mailes ügyfélszolgálat",
+    "issues_button": "Nyissa meg a GitHub Issues",
+    "contact_warning": "Ne küldjön jelszavakat, Apple IDs, API-kulcsokat, felesleges személyes adatokat, címet vagy a pontos tartózkodási helyét. A GitHub Issues nyilvános, és a GitHub felhasználónév, profiladatok és bejegyzések mások számára láthatók lehetnek.",
+    "diagnostics_title": "Támogatást segítő információk",
+    "diagnostics_items": [
+      "Hogy használnak-e iPhone, iPad vagy Mac-et, és az eszköz modellje",
+      "Az operációs rendszer verziója és az alkalmazás verziója",
+      "Az érintett nap- vagy holdfogyatkozás",
+      "A probléma előtti lépések és a megjelenített hiba"
+    ],
+    "privacy_note": "A helyszínről, exportálásról, e-mailről és GitHub Pages további részletekért olvassa el a {privacy_page}.",
+    "faq_title": "Gyakran ismételt kérdések",
+    "faqs": {
+      "location_permission": {
+        "question": "Szükséges helymeghatározási engedély?",
+        "answer": "Nem. Megérintheti vagy rákattinthat a térképre, kereshet egy helyet, vagy beírhatja a szélességi és hosszúsági fokot. Az app csak akkor kéri a Core Location engedélyt, miután a Jelenlegi hely választását választotta. A térkép, keresés és fordított geokódolás kérései továbbra is feldolgozhatók az Apple szolgáltatásai által."
+      },
+      "modern_maps": {
+        "question": "Miért használ egy történelmi esemény modern térképet?",
+        "answer": "A háttér a jelenlegi Apple Maps. Nem rekonstruálja a történelmi vagy jövőbeli határokat, városokat, utakat vagy partvonalakat."
+      },
+      "model_differences": {
+        "question": "Miért térhetnek el az értékek a NASA-tól vagy egy másik referencia táblázattól?",
+        "answer": "Az eredmények eltérhetnek az efemeridák, a Hold peremének sugara, ΔT, a Föld orientációja, a terep és a légköri feltételezések miatt. Tekintse át a számítási feltételeket és az alkalmazásban feltüntetett forrásokat. Az alkalmazás nem garantál végleges értékeket megfigyelési tervezéshez, navigációhoz, tudományos következtetésekhez vagy biztonságkritikus döntésekhez."
+      },
+      "lunar_colour": {
+        "question": "A holdfogyatkozás színe előrejelzés?",
+        "answer": "Nem. A piros szín egy vázlatos segédeszköz a holdfogyatkozás menetének megértéséhez. Nem határozza meg egy történelmi vagy jövőbeli holdfogyatkozás légkörét vagy valós színét."
+      },
+      "exports": {
+        "question": "Milyen exportformátumok érhetők el?",
+        "answer": "A kiválasztott esemény adatait exportálhatja CSV vagy JSON formátumban, a képernyőt vagy ablakot pedig PNG vagy PDF formátumban. Az exportok tartalmazhatják a kiválasztott hely nevét, koordinátáit, időzónáját vagy más, a képernyőn látható információkat, ezért megosztás előtt ellenőrizze a tartalmat."
+      }
+    },
+    "footer": "{app_name} — Támogatás"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

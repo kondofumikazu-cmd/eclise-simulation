@@ -1,0 +1,151 @@
+{
+  "app_locale": "ko",
+  "bcp47": "ko",
+  "native_name": "한국어",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "개인정보 처리방침",
+    "support_page": "지원 페이지",
+    "apple_maps_privacy": "Apple 지도 및 개인정보 보호",
+    "apple_maps_terms": "Apple 지도 이용 약관",
+    "github_privacy": "GitHub 개인정보 처리방침",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "본문으로 건너뛰기",
+    "overview": "한국어 개요",
+    "support": "지원",
+    "privacy": "개인정보 보호",
+    "accessibility": "한국어 손쉬운 사용 정보",
+    "languages": "언어",
+    "brand_home_aria": "{app_name} 한국어 개요",
+    "privacy_eyebrow": "개인정보 처리방침",
+    "support_eyebrow": "지원"
+  },
+  "privacy": {
+    "meta_description": "위치, Apple 지도, 기기 내 저장, 내보내기, 지원 문의 및 이 웹사이트에 관한 {app_name}의 개인정보 처리방침입니다.",
+    "heading": "개인정보 처리방침",
+    "lede": "이 방침은 iPhone, iPad 및 Mac용 {app_name}에 적용됩니다.",
+    "effective_date_label": "시행일",
+    "effective_date": "2026년 8월 29일",
+    "sections": {
+      "developer_data_collection": {
+        "title": "앱의 데이터 처리 방식",
+        "paragraphs": [
+          "이 앱에는 개발자가 운영하는 광고, 앱 간 추적, 사용 분석, 충돌 분석 SDK, 로그인 계정, 구독, 채팅 또는 공개 게시 기능이 없습니다. 앱은 개발자가 운영하는 서버로 개인정보를 전송하지 않습니다.",
+          "Apple 서비스, GitHub Pages, 이메일 제공업체 및 사용자가 선택한 저장 또는 공유 서비스는 아래 설명과 같이 독립적으로 정보를 처리할 수 있습니다."
+        ]
+      },
+      "location": {
+        "title": "위치",
+        "paragraphs": [
+          "앱은 사용자가 현재 위치를 선택하고 시스템 알림에서 권한을 허용한 경우에만 일회성 위치를 요청합니다. 제공된 위도와 경도를 관측 지점 설정에 사용하며 지속적인 위치 추적은 구현하지 않습니다.",
+          "권한 허용은 선택 사항입니다. 지도에서 지점을 선택하거나 장소를 검색하거나 위도와 경도를 입력할 수 있습니다. 이러한 방법에는 Core Location 권한이 필요하지 않지만 지도, 검색 및 역지오코딩 요청은 여전히 Apple 서비스에서 처리될 수 있습니다."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple 지도",
+        "paragraphs": [
+          "앱은 지도 표시, 장소 검색, 역지오코딩 및 시간대 보완을 위해 MapKit과 Apple 지도를 사용합니다. 표시 중인 지도 영역, 검색어 또는 좌표와 같은 요청은 Apple에서 처리할 수 있습니다. 앱에는 이러한 요청을 개발자가 운영하는 서버로 보내는 사용자 정의 네트워크 기능이 없습니다.",
+          "Apple의 이러한 요청 처리 방식은 {apple_maps_privacy} 및 해당 {apple_maps_terms}에 설명되어 있습니다."
+        ]
+      },
+      "on_device_storage": {
+        "title": "기기 내 저장",
+        "paragraphs": [
+          "표시 설정은 UserDefaults에 저장됩니다. 즐겨찾는 관측 위치에는 이름, 위도, 경도, 시간대 식별자 및 앱에서 생성한 식별자가 포함될 수 있으며 기기의 SQLite 데이터베이스에 저장됩니다.",
+          "선택한 관측 지점과 위치별 계산 결과는 해당 지점을 즐겨찾기로 저장하지 않아도 기기에 캐시될 수 있습니다. 이 캐시에는 좌표와 현상 또는 모델 정보가 포함될 수 있습니다.",
+          "앱은 자체 계정 동기화, CloudKit 동기화 또는 개발자 서버 백업을 제공하지 않습니다. 운영 체제의 백업, 앱 정리 및 제거 동작은 상황에 따라 다르므로 앱을 제거했다고 해서 모든 사본이 삭제되었다고 보장할 수는 없습니다."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "내보내기 및 공유",
+        "paragraphs": [
+          "CSV 및 JSON 내보내기에는 일식·월식 데이터와 함께 관측 위치 이름, 위도, 경도 및 시간대가 포함될 수 있습니다. PNG 및 PDF 내보내기에는 화면에 표시된 위치 또는 현상 정보가 포함될 수 있습니다.",
+          "Mac에서는 저장 위치를 사용자가 선택합니다. iPhone과 iPad에서는 앱이 임시 내보내기 파일을 만들고 시스템 공유 시트를 표시합니다. 내보낸 뒤에는 사용자가 선택한 대상 또는 공유 서비스의 개인정보 처리방침이 적용됩니다. 앱은 내보낸 파일을 개발자 서버에 자동으로 업로드하지 않습니다."
+        ]
+      },
+      "support_contact": {
+        "title": "지원 이메일 및 GitHub Issues",
+        "paragraphs": [
+          "지원팀에 이메일을 보내면 지원 요청을 처리하기 위해 개발자와 관련 이메일 제공업체가 이메일 주소, 메시지 및 첨부 파일을 처리합니다. 지원에 필요하지 않은 개인정보나 기밀정보를 보내지 마십시오. 지원 메시지의 처리 또는 삭제에 관한 질문은 {email}로 문의하십시오.",
+          "{issues_page}는 공개되어 있습니다. GitHub 사용자 이름, 프로필 정보 및 제출한 내용은 다른 사람에게 보일 수 있으며 {github_privacy}에 따라 처리됩니다. 암호, Apple ID, API 키, 주소, 정확한 현재 위치 또는 기타 개인정보를 게시하지 마십시오."
+        ]
+      },
+      "children": {
+        "title": "아동의 개인정보 보호",
+        "paragraphs": [
+          "이 앱은 개인정보를 수집하도록 설계되지 않았으며 앱 안에서 연령 프로필, 계정, 채팅 또는 공개 게시 기능을 제공하지 않습니다. 아동과 보호자는 지원 이메일이나 공개 GitHub Issues를 통해 개인정보를 보내서는 안 됩니다. 보호자는 지원을 위해 보낸 정보에 관한 질문을 {email}로 문의할 수 있습니다."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "이 웹사이트와 GitHub Pages",
+        "paragraphs": [
+          "이 사이트는 자체 분석, 광고, 추적 쿠키, 입력 양식 또는 클라이언트 측 스크립트를 추가하지 않습니다. GitHub Pages에서 호스팅되므로 GitHub는 서비스 운영과 보안에 필요한 접속 기록 및 기타 기술 정보를 처리할 수 있습니다. {github_privacy}을 참조하십시오."
+        ]
+      },
+      "changes": {
+        "title": "변경",
+        "paragraphs": [
+          "앱의 데이터 처리 방식이 변경되면 이 방침과 해당 App Store 개인정보 보호 답변을 업데이트하고 개정된 방침을 이 페이지에 게시합니다."
+        ]
+      },
+      "contact": {
+        "title": "문의",
+        "paragraphs": [
+          "이 방침에 관한 질문은 {email}로 이메일을 보내거나 {support_page}를 이용하십시오."
+        ]
+      }
+    },
+    "footer": "{app_name} — 개인정보 보호"
+  },
+  "support": {
+    "meta_description": "{app_name}의 도움말, 자주 묻는 질문, 개인정보 보호 안내 및 문의 방법입니다.",
+    "heading": "지원",
+    "lede": "이 앱은 iOS 및 iPadOS 17 이상과 macOS 14 이상을 지원합니다.",
+    "contact_title": "문의",
+    "contact_intro": "문제, 앱 사용 방법에 관한 질문 또는 의견은 이메일이나 공개 GitHub Issues로 문의하십시오.",
+    "email_button": "지원팀에 이메일 보내기",
+    "issues_button": "GitHub Issues 열기",
+    "contact_warning": "암호, Apple ID, API 키, 불필요한 개인정보, 주소 또는 정확한 현재 위치를 보내지 마십시오. GitHub Issues는 공개되어 있으며 GitHub 사용자 이름, 프로필 정보 및 게시물이 다른 사람에게 보일 수 있습니다.",
+    "diagnostics_title": "지원에 도움이 되는 정보",
+    "diagnostics_items": [
+      "iPhone, iPad 또는 Mac 중 사용 중인 기기와 기기 모델",
+      "운영 체제 버전과 앱 버전",
+      "관련된 일식 또는 월식 현상",
+      "문제가 발생하기 전 단계와 표시된 오류"
+    ],
+    "privacy_note": "위치, 내보내기, 이메일 및 GitHub Pages에 관한 자세한 내용은 {privacy_page}을 읽어 보십시오.",
+    "faq_title": "자주 묻는 질문",
+    "faqs": {
+      "location_permission": {
+        "question": "위치 권한이 필요한가요?",
+        "answer": "아니요. 지도를 탭하거나 클릭하거나 장소를 검색하거나 위도와 경도를 입력할 수 있습니다. 앱은 현재 위치를 선택한 경우에만 Core Location 권한을 요청합니다. 지도, 검색 및 역지오코딩 요청은 여전히 Apple 서비스에서 처리될 수 있습니다."
+      },
+      "modern_maps": {
+        "question": "과거의 현상에 현대 지도가 사용되는 이유는 무엇인가요?",
+        "answer": "배경에는 현재의 Apple 지도가 사용됩니다. 과거나 미래의 국경, 도시, 도로 또는 해안선을 재현하지 않습니다."
+      },
+      "model_differences": {
+        "question": "NASA 또는 다른 참고 표와 값이 다를 수 있는 이유는 무엇인가요?",
+        "answer": "천체력, 달 가장자리 반지름, ΔT, 지구 자세, 지형 및 대기 가정에 따라 결과가 달라질 수 있습니다. 앱에 표시된 계산 조건과 출처를 확인하십시오. 앱은 관측 계획, 항법, 과학적 결론 또는 안전이 중요한 결정에 사용할 확정값을 보장하지 않습니다."
+      },
+      "lunar_colour": {
+        "question": "월식의 색은 예측인가요?",
+        "answer": "아니요. 붉은색은 식의 진행을 이해하기 위한 도식적 보조 표현입니다. 과거나 미래 월식의 대기 상태 또는 실제 색을 결정하지 않습니다."
+      },
+      "exports": {
+        "question": "어떤 형식으로 내보낼 수 있나요?",
+        "answer": "선택한 현상 데이터를 CSV 또는 JSON으로, 화면이나 윈도우를 PNG 또는 PDF로 내보낼 수 있습니다. 내보내기에는 선택한 위치의 이름, 좌표, 시간대 또는 화면에 표시된 기타 정보가 포함될 수 있으므로 공유하기 전에 내용을 확인하십시오."
+      }
+    },
+    "footer": "{app_name} — 지원"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}

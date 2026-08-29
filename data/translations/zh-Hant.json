@@ -1,0 +1,151 @@
+{
+  "app_locale": "zh-Hant",
+  "bcp47": "zh-Hant",
+  "native_name": "繁體中文",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "隱私權政策",
+    "support_page": "支援頁面",
+    "apple_maps_privacy": "Apple Maps 與隱私",
+    "apple_maps_terms": "Apple Maps 條款",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "跳到內容",
+    "overview": "繁體中文概述",
+    "support": "支援",
+    "privacy": "隱私權",
+    "accessibility": "繁體中文輔助功能",
+    "languages": "語言",
+    "brand_home_aria": "{app_name} 繁體中文概述",
+    "privacy_eyebrow": "隱私權政策",
+    "support_eyebrow": "支援"
+  },
+  "privacy": {
+    "meta_description": "{app_name} 的隱私權政策，涵蓋地點、Apple Maps、裝置上儲存、匯出、支援聯絡人和本網站。",
+    "heading": "隱私權政策",
+    "lede": "此政策適用於 {app_name} 的 iPhone、iPad 和 Mac 版本。",
+    "effective_date_label": "生效日期",
+    "effective_date": "2026 年 8 月 29 日",
+    "sections": {
+      "developer_data_collection": {
+        "title": "應用程式中的資料實踐",
+        "paragraphs": [
+          "應用程式不包含由開發者營運的廣告、跨應用程式追蹤、使用情況分析、當機分析 SDK、登入帳戶、訂閱、聊天或公開發文功能。應用程式不會將個人資料傳送至開發者營運的伺服器。",
+          "Apple 服務、GitHub Pages、電子郵件服務供應商，以及您選擇的儲存或分享服務，可能會依下述方式各自處理資訊。"
+        ]
+      },
+      "location": {
+        "title": "地點",
+        "paragraphs": [
+          "僅在您選擇「目前位置」並於系統提示中授予權限後，應用程式才會要求取得一次位置資訊。應用程式使用取得的緯度與經度設定觀測點，且不會持續追蹤位置。",
+          "位置權限為選用。您可以在地圖上選擇一個點、搜尋地點，或輸入緯度與經度。這些替代方式不需要 Core Location 權限，但地圖、搜尋和反向地理編碼請求仍可能由 Apple 服務處理。"
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "應用程式使用 MapKit 和 Apple Maps 顯示地圖、搜尋地點、進行反向地理編碼及補齊時區。Apple 可能會處理可見地圖區域、搜尋字詞或座標等請求。應用程式沒有會將這些請求傳送至開發者營運伺服器的自訂網路功能。",
+          "Apple 處理這些請求的方式，請參閱 {apple_maps_privacy} 和適用的 {apple_maps_terms}。"
+        ]
+      },
+      "on_device_storage": {
+        "title": "裝置端儲存",
+        "paragraphs": [
+          "顯示設定儲存在 UserDefaults 中。收藏的觀測位置可能包括名稱、緯度、經度、時區識別碼，以及應用程式產生的識別碼，並儲存在裝置上的 SQLite 資料庫中。",
+          "所選的觀測點和特定位置的計算結果也可能會快取在裝置上，即使該點未儲存為喜好項目也一樣。該快取可能包含座標以及事件或模型資訊。",
+          "應用程式不提供自有帳戶同步、CloudKit 同步，也不會備份到開發者伺服器。作業系統的備份、卸載與移除行為各不相同，因此移除應用程式不應被視為能保證每一份副本都已刪除。"
+        ]
+      },
+      "export_and_sharing": {
+        "title": "匯出與分享",
+        "paragraphs": [
+          "CSV 和 JSON 匯出內容可能包括觀測位置名稱、緯度、經度、時區，以及日食或月食資料。PNG 和 PDF 匯出內容可能包括螢幕上可見的位置或事件資訊。",
+          "在 Mac 上，由您選擇儲存位置。在 iPhone 和 iPad 上，應用程式會建立暫存匯出檔案，並顯示系統分享表單。匯出後，您所選目的地或分享服務的隱私權做法將適用。應用程式不會自動將匯出內容上傳到開發者伺服器。"
+        ]
+      },
+      "support_contact": {
+        "title": "支援電子郵件和 GitHub Issues",
+        "paragraphs": [
+          "如果您寄送電子郵件給支援人員，您的電子郵件地址、訊息和任何附件，將由開發者與相關電子郵件服務供應商處理，以回應您的支援要求。請勿傳送支援所不需要的個人或機密資訊。如對支援訊息的處理或刪除有疑問，請聯絡 {email}。",
+          "{issues_page} 是公開的。您的 GitHub 使用者名稱、個人資料資訊和提交的內容可能對其他人可見，並在 {github_privacy} 下進行處理。請勿發布密碼、Apple IDs、API keys、您的地址、您目前的確切位置或其他個人資訊。"
+        ]
+      },
+      "children": {
+        "title": "兒童隱私",
+        "paragraphs": [
+          "應用程式並非設計用來收集個人資料，也不在應用程式內提供年齡檔案、帳戶、聊天或公開發文功能。兒童和監護人不應透過支援電子郵件或公開 GitHub Issues 傳送個人資訊。監護人可聯絡 {email}，詢問為取得支援而傳送的資訊。"
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "本網站和 GitHub Pages",
+        "paragraphs": [
+          "本網站不加入自有的分析、廣告、追蹤 Cookie、輸入表單或用戶端指令碼。網站由 GitHub Pages 託管，因此 GitHub 可能會處理維運及保護服務所需的存取記錄和其他技術資訊。請參閱 {github_privacy}。"
+        ]
+      },
+      "changes": {
+        "title": "變更",
+        "paragraphs": [
+          "如果應用程式的資料實務發生變化，本政策和適用的 App Store 隱私權回應將更新，修訂後的政策將發佈在此頁面上。"
+        ]
+      },
+      "contact": {
+        "title": "聯絡方式",
+        "paragraphs": [
+          "如果對此政策有疑問，請發送電子郵件至 {email} 或使用 {support_page}。"
+        ]
+      }
+    },
+    "footer": "{app_name} — 隱私權"
+  },
+  "support": {
+    "meta_description": "{app_name} 的說明、常見問題、隱私權指南和聯絡選項。",
+    "heading": "支援",
+    "lede": "該應用程式支援 iOS 和 iPadOS 17 或更高版本以及 macOS 14 或更高版本。",
+    "contact_title": "聯絡方式",
+    "contact_intro": "如遇到問題、對應用程式的使用有疑問或想提供意見，請透過電子郵件或公開的 GitHub Issues 與我們聯絡。",
+    "email_button": "寄送支援電子郵件",
+    "issues_button": "開啟 GitHub Issues",
+    "contact_warning": "請勿傳送密碼、Apple IDs、API keys、不必要的個人資訊、您的地址或您目前的確切位置。 GitHub Issues 是公開的，您的 GitHub 使用者名稱、個人資料資訊和貼文可能對其他人可見。",
+    "diagnostics_title": "有助於支援的資訊",
+    "diagnostics_items": [
+      "您使用 iPhone、iPad 或 Mac，以及裝置型號",
+      "作業系統版本和應用程式版本",
+      "涉及的日食或月食事件",
+      "出現問題之前的步驟以及任何顯示的錯誤"
+    ],
+    "privacy_note": "如需位置、匯出、電子郵件和 GitHub Pages 的詳細資訊，請閱讀 {privacy_page}。",
+    "faq_title": "常見問題",
+    "faqs": {
+      "location_permission": {
+        "question": "是否需要位置權限？",
+        "answer": "不需要。您可以點選或按一下地圖、搜尋地點，或輸入緯度與經度。只有在您選擇「目前位置」後，應用程式才會要求 Core Location 權限。地圖、搜尋和反向地理編碼請求仍可能由 Apple 服務處理。"
+      },
+      "modern_maps": {
+        "question": "為什麼歷史事件使用現代地圖？",
+        "answer": "背景是現在的Apple Maps。它不會重建歷史或未來的邊界、城市、道路或海岸線。"
+      },
+      "model_differences": {
+        "question": "為什麼數值可能與 NASA 或其他參考表不同？",
+        "answer": "由於星曆、月緣半徑、ΔT、地球定向、地形和大氣假設不同，結果可能會有所差異。請查看應用程式中顯示的計算條件和來源。應用程式不保證為觀測規劃、導航、科學結論或安全關鍵決策提供確定數值。"
+      },
+      "lunar_colour": {
+        "question": "月食顏色是否為預測結果？",
+        "answer": "不是。紅色只是用來理解月食進程的示意性輔助顯示，不代表歷史或未來月食的大氣狀況或實際顏色。"
+      },
+      "exports": {
+        "question": "有哪些匯出格式可用？",
+        "answer": "您可以將所選事件資料匯出為 CSV 或 JSON，並將螢幕或視窗匯出為 PNG 或 PDF。匯出的內容可能包括所選位置的名稱、座標、時區或螢幕上可見的其他資訊，因此在分享內容之前請先檢查內容。"
+      }
+    },
+    "footer": "{app_name} — 支援"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}

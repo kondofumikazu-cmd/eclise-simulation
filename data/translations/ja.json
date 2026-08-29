@@ -1,0 +1,151 @@
+{
+  "app_locale": "ja",
+  "bcp47": "ja",
+  "native_name": "日本語",
+  "direction": "ltr",
+  "app_name": "月食・日食シミュレーター",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "プライバシーポリシー",
+    "support_page": "サポートページ",
+    "apple_maps_privacy": "Apple Mapsとプライバシー",
+    "apple_maps_terms": "Apple Mapsの利用条件",
+    "github_privacy": "GitHubプライバシーステートメント",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "本文へ移動",
+    "overview": "日本語の概要",
+    "support": "サポート",
+    "privacy": "プライバシー",
+    "accessibility": "日本語のアクセシビリティ",
+    "languages": "言語",
+    "brand_home_aria": "{app_name} 日本語概要",
+    "privacy_eyebrow": "Privacy Policy",
+    "support_eyebrow": "Support"
+  },
+  "privacy": {
+    "meta_description": "{app_name}のプライバシーポリシー。位置情報、Apple Maps、端末内保存、書き出し、サポート連絡、本Webサイトについて説明します。",
+    "heading": "プライバシーポリシー",
+    "lede": "本ポリシーは、{app_name}のiPhone、iPad、Mac版に適用されます。",
+    "effective_date_label": "施行日",
+    "effective_date": "2026年8月29日",
+    "sections": {
+      "developer_data_collection": {
+        "title": "アプリにおけるデータの取扱い",
+        "paragraphs": [
+          "本アプリには、開発者が運営する広告、アプリをまたぐトラッキング、利用状況分析、クラッシュ分析SDK、ログイン用アカウント、サブスクリプション、チャット、公開投稿機能はありません。本アプリは、開発者が運営するサーバへ個人データを送信しません。",
+          "Appleのサービス、GitHub Pages、メール事業者、利用者が選んだ保存先または共有サービスは、以下の説明に従って情報を個別に処理する場合があります。"
+        ]
+      },
+      "location": {
+        "title": "位置情報",
+        "paragraphs": [
+          "本アプリは、利用者が「現在地」を選び、システムの許可画面で承認した後に限り、一度だけ位置情報を要求します。取得した緯度と経度は観測地点の設定に使用し、継続的な位置追跡は実装していません。",
+          "許可は任意です。地図上の地点、場所検索、または緯度・経度の入力でも観測地点を選べます。これらはCore Location権限を使わない代替手段ですが、地図、検索、逆ジオコードの要求はAppleのサービスで処理される場合があります。"
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "本アプリは、地図表示、場所検索、逆ジオコード、タイムゾーン補完にMapKitとApple Mapsを使用します。表示中の地図範囲、検索語、座標などの要求はAppleによって処理される場合があります。本アプリには、これらを開発者運営サーバへ送る独自通信はありません。",
+          "Appleによる要求の取扱いについては、{apple_maps_privacy}および適用される{apple_maps_terms}をご確認ください。"
+        ]
+      },
+      "on_device_storage": {
+        "title": "端末内の保存",
+        "paragraphs": [
+          "表示設定はUserDefaultsへ保存されます。お気に入りの観測地点には、名称、緯度、経度、タイムゾーン識別子、アプリが生成した識別子が含まれる場合があり、端末内のSQLiteデータベースへ保存されます。",
+          "お気に入りに保存していない観測地点でも、選択した地点と地点別の計算結果が端末内にキャッシュされる場合があります。このキャッシュには座標、イベント、モデルに関する情報が含まれ得ます。",
+          "本アプリ独自のアカウント同期、CloudKit同期、開発者サーバへのバックアップはありません。OSのバックアップ、Appの取り除き、アプリ削除時の動作は環境によって異なるため、アプリを削除すれば全てのコピーが必ず消えるとは限りません。"
+        ]
+      },
+      "export_and_sharing": {
+        "title": "書き出しと共有",
+        "paragraphs": [
+          "CSVとJSONには、食に関するデータに加えて、観測地点の名称、緯度、経度、タイムゾーンが含まれる場合があります。PNGとPDFには、画面に表示中の地点情報やイベント情報が含まれる場合があります。",
+          "Macでは利用者が保存先を選びます。iPhoneとiPadでは一時的な書き出しファイルを作成し、システムの共有シートを表示します。書き出し後は、利用者が選んだ保存先または共有サービスのプライバシー方針が適用されます。本アプリが書き出しファイルを開発者サーバへ自動送信することはありません。"
+        ]
+      },
+      "support_contact": {
+        "title": "サポートメールとGitHub Issues",
+        "paragraphs": [
+          "サポートへメールを送信すると、メールアドレス、本文、添付ファイルが、問い合わせ対応に関連して開発者とメール事業者によって処理されます。サポートに不要な個人情報や機密情報は送信しないでください。サポートメールの取扱いや削除に関する質問は{email}へご連絡ください。",
+          "{issues_page}は公開されています。GitHubのユーザー名、プロフィール情報、投稿内容は他の利用者から見える場合があり、{github_privacy}に従って処理されます。パスワード、Apple ID、APIキー、住所、正確な現在地、その他の個人情報を投稿しないでください。"
+        ]
+      },
+      "children": {
+        "title": "子どものプライバシー",
+        "paragraphs": [
+          "本アプリは個人データを収集する目的で設計されておらず、年齢プロフィール、アカウント、チャット、アプリ内の公開投稿機能を提供しません。子どもと保護者は、サポートメールや公開GitHub Issuesへ個人情報を送信しないでください。サポートのために送信した情報について質問がある場合は、保護者から{email}へご連絡ください。"
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "本WebサイトとGitHub Pages",
+        "paragraphs": [
+          "本サイトは独自のアクセス解析、広告、追跡Cookie、入力フォーム、クライアント側スクリプトを追加していません。サイトはGitHub Pagesで公開されているため、GitHubがサービスの運用と安全確保に必要なアクセスログその他の技術情報を処理する場合があります。詳しくは{github_privacy}をご確認ください。"
+        ]
+      },
+      "changes": {
+        "title": "変更",
+        "paragraphs": [
+          "本アプリのデータ取扱いを変更した場合は、本ポリシーと該当するApp Storeのプライバシー回答を更新し、改訂版をこのページに掲載します。"
+        ]
+      },
+      "contact": {
+        "title": "お問い合わせ",
+        "paragraphs": [
+          "本ポリシーへのお問い合わせは、{email}または{support_page}をご利用ください。"
+        ]
+      }
+    },
+    "footer": "{app_name} — プライバシー"
+  },
+  "support": {
+    "meta_description": "{app_name}のヘルプ、よくある質問、プライバシー上の注意、お問い合わせ窓口。",
+    "heading": "サポート",
+    "lede": "iOS／iPadOS 17以降、macOS 14以降に対応しています。",
+    "contact_title": "お問い合わせ",
+    "contact_intro": "不具合、操作方法、ご要望は、メールまたは公開GitHub Issuesで受け付けます。",
+    "email_button": "メールで問い合わせる",
+    "issues_button": "GitHub Issuesを開く",
+    "contact_warning": "パスワード、Apple ID、APIキー、不要な個人情報、住所、正確な現在地は送信しないでください。GitHub Issuesは公開され、GitHubのユーザー名、プロフィール情報、投稿内容は他の利用者から見える場合があります。",
+    "diagnostics_title": "お問い合わせ時に役立つ情報",
+    "diagnostics_items": [
+      "iPhone、iPad、Macの別と機種",
+      "OSバージョンとアプリバージョン",
+      "問題が起きた日食・月食イベント",
+      "問題が起きるまでの操作と、表示されたエラー"
+    ],
+    "privacy_note": "位置情報、書き出し、メール、GitHub Pagesの取扱いは、{privacy_page}をご確認ください。",
+    "faq_title": "よくある質問",
+    "faqs": {
+      "location_permission": {
+        "question": "位置情報を許可しないと使えませんか",
+        "answer": "いいえ。地図をクリックまたはタップする、場所を検索する、緯度・経度を入力する方法で観測地点を指定できます。「現在地」を選んだときだけCore Location権限を求めます。地図、検索、逆ジオコードの要求はAppleのサービスで処理される場合があります。"
+      },
+      "modern_maps": {
+        "question": "地図が年代当時の地図ではありません",
+        "answer": "背景は現在のApple Mapsです。古代・未来の国境、都市、道路、海岸線を再現したものではありません。"
+      },
+      "model_differences": {
+        "question": "NASAなどの表と値が違うことがあります",
+        "answer": "天体暦、月縁半径、ΔT、地球姿勢、地形、大気の扱いが異なると結果も変わります。アプリ内の計算条件と出典を確認してください。本アプリは、観測計画、航法、科学的結論、安全に関わる判断の確定値を保証しません。"
+      },
+      "lunar_colour": {
+        "question": "月食の月の色は予測ですか",
+        "answer": "いいえ。赤色は食の進行を理解するための模式表示です。過去・未来の大気や実際の色を確定的に予測するものではありません。"
+      },
+      "exports": {
+        "question": "書き出せる形式",
+        "answer": "選択イベントはCSV／JSON、画面またはウインドウはPNG／PDFへ書き出せます。書き出しには選択地点の名称、座標、タイムゾーン、画面に表示された情報が含まれる場合があるため、共有前に内容を確認してください。"
+      }
+    },
+    "footer": "{app_name} — サポート"
+  },
+  "quality": {
+    "status": "source-reviewed-against-code",
+    "native_review_required": false,
+    "notes": "2026-08-29のプライバシー技術監査に基づく日本語正本。法務レビューは技術監査の範囲外。"
+  }
+}

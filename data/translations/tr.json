@@ -1,0 +1,151 @@
+{
+  "app_locale": "tr",
+  "bcp47": "tr",
+  "native_name": "Türkçe",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "gizlilik politikasını",
+    "support_page": "destek sayfasını",
+    "apple_maps_privacy": "Apple Maps ve Gizlilik",
+    "apple_maps_terms": "Apple Maps koşulları",
+    "github_privacy": "GitHub Gizlilik Bildirimi",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "overview": "Türkçe genel bakış",
+    "support": "Destek",
+    "privacy": "Gizlilik",
+    "accessibility": "Türkçe erişilebilirlik bilgileri",
+    "languages": "Diller",
+    "brand_home_aria": "{app_name} için Türkçe genel bakış",
+    "privacy_eyebrow": "Gizlilik Politikası",
+    "support_eyebrow": "Destek"
+  },
+  "privacy": {
+    "meta_description": "{app_name} için konum, Apple Maps, aygıtta depolama, dışa aktarma, destek iletişimi ve bu web sitesini kapsayan gizlilik politikası.",
+    "heading": "Gizlilik Politikası",
+    "lede": "Bu politika, {app_name} uygulamasının iPhone, iPad ve Mac sürümleri için geçerlidir.",
+    "effective_date_label": "Yürürlük tarihi",
+    "effective_date": "29 Ağustos 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Uygulamadaki veri uygulamaları",
+        "paragraphs": [
+          "Uygulamada geliştirici tarafından işletilen reklamlar, uygulamalar arası izleme, kullanım analitiği, çökme analizi SDK'ları, oturum açma hesapları, abonelikler, sohbet veya herkese açık gönderi özellikleri bulunmaz. Uygulama, kişisel verileri geliştirici tarafından işletilen bir sunucuya göndermez.",
+          "Apple hizmetleri, GitHub Pages, e-posta sağlayıcıları ve seçtiğiniz bir kaydetme veya paylaşma hizmeti, bilgileri aşağıda açıklandığı şekilde bağımsız olarak işleyebilir."
+        ]
+      },
+      "location": {
+        "title": "Konum",
+        "paragraphs": [
+          "Uygulama, yalnızca Mevcut Konum'u seçip sistem isteminde izin verdikten sonra tek seferlik konum ister. Elde edilen enlem ve boylamı gözlem noktasını ayarlamak için kullanır ve sürekli konum izleme özelliği uygulamaz.",
+          "İzin isteğe bağlıdır. Haritada bir nokta seçebilir, bir yer arayabilir veya enlem ve boylam girebilirsiniz. Bu seçenekler Core Location izni gerektirmez, ancak harita, arama ve tersine coğrafi kodlama istekleri yine de Apple hizmetleri tarafından işlenebilir."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Uygulama; harita gösterimi, yer arama, tersine coğrafi kodlama ve saat dilimi tamamlama için MapKit ve Apple Maps'i kullanır. Görünen harita bölgesi, arama terimleri veya koordinatlar gibi istekler Apple tarafından işlenebilir. Uygulamada bu istekleri geliştirici tarafından işletilen bir sunucuya gönderen özel bir ağ özelliği yoktur.",
+          "Apple'ın bu istekleri nasıl işlediği {apple_maps_privacy} ve geçerli {apple_maps_terms} içinde açıklanır."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Aygıtta depolama",
+        "paragraphs": [
+          "Görüntüleme ayarları UserDefaults içinde saklanır. Favori gözlem konumları ad, enlem, boylam, saat dilimi tanımlayıcısı ve uygulama tarafından oluşturulan bir tanımlayıcı içerebilir ve aygıttaki bir SQLite veritabanında saklanır.",
+          "Seçilen gözlem noktası ve konuma özgü hesaplama sonuçları, nokta favori olarak kaydedilmese bile aygıtta önbelleğe alınabilir. Bu önbellek koordinatları ve olay veya model bilgilerini içerebilir.",
+          "Uygulama kendi hesap eşzamanlamasını, CloudKit eşzamanlamasını veya geliştirici sunucusuna yedeklemeyi sağlamaz. İşletim sisteminin yedekleme, uygulamayı boşaltma ve kaldırma davranışları değişiklik gösterdiğinden, uygulamanın kaldırılması her kopyanın silindiğinin garantisi olarak görülmemelidir."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Dışa aktarma ve paylaşma",
+        "paragraphs": [
+          "CSV ve JSON dışa aktarımları, tutulma verilerinin yanı sıra bir gözlem konumunun adını, enlemini, boylamını ve saat dilimini içerebilir. PNG ve PDF dışa aktarımları ekranda görünen konum veya olay bilgilerini içerebilir.",
+          "Mac'te kaydetme konumunu siz seçersiniz. iPhone ve iPad'de uygulama geçici bir dışa aktarım oluşturur ve sistem paylaşım sayfasını gösterir. Dışa aktarmadan sonra seçtiğiniz hedefin veya paylaşım hizmetinin gizlilik uygulamaları geçerlidir. Uygulama dışa aktarımları geliştirici sunucusuna otomatik olarak yüklemez."
+        ]
+      },
+      "support_contact": {
+        "title": "Destek e-postası ve GitHub Issues",
+        "paragraphs": [
+          "Desteğe e-posta gönderirseniz e-posta adresiniz, mesajınız ve ekleriniz, destek talebinizin ele alınması amacıyla geliştirici ve ilgili e-posta sağlayıcıları tarafından işlenir. Destek için gerekli olmayan kişisel veya gizli bilgileri göndermeyin. Bir destek mesajının işlenmesi veya silinmesiyle ilgili sorular için {email} adresiyle iletişime geçin.",
+          "{issues_page} herkese açıktır. GitHub kullanıcı adınız, profil bilgileriniz ve gönderdiğiniz içerik başkaları tarafından görülebilir ve {github_privacy} kapsamında işlenir. Parolaları, Apple ID'leri, API anahtarlarını, adresinizi, tam mevcut konumunuzu veya diğer kişisel bilgileri yayımlamayın."
+        ]
+      },
+      "children": {
+        "title": "Çocukların gizliliği",
+        "paragraphs": [
+          "Uygulama kişisel veri toplamak üzere tasarlanmamıştır ve uygulama içinde yaş profilleri, hesaplar, sohbet veya herkese açık gönderi özelliği sunmaz. Çocuklar ve velileri, destek e-postası veya herkese açık GitHub Issues aracılığıyla kişisel bilgi göndermemelidir. Bir veli, destek için gönderilen bilgilerle ilgili sorular için {email} adresiyle iletişime geçebilir."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Bu web sitesi ve GitHub Pages",
+        "paragraphs": [
+          "Bu site kendi analitiğini, reklamlarını, izleme çerezlerini, giriş formlarını veya istemci tarafı betiklerini eklemez. GitHub Pages tarafından barındırıldığından GitHub, hizmeti işletmek ve güvenliğini sağlamak için gereken erişim günlüklerini ve diğer teknik bilgileri işleyebilir. Bkz. {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Değişiklikler",
+        "paragraphs": [
+          "Uygulamanın veri uygulamaları değişirse bu politika ve ilgili App Store gizlilik yanıtları güncellenecek ve değiştirilmiş politika bu sayfada yayımlanacaktır."
+        ]
+      },
+      "contact": {
+        "title": "İletişim",
+        "paragraphs": [
+          "Bu politikayla ilgili sorularınız için {email} adresine e-posta gönderin veya {support_page} kullanın."
+        ]
+      }
+    },
+    "footer": "{app_name} — Gizlilik"
+  },
+  "support": {
+    "meta_description": "{app_name} için yardım, sık sorulan sorular, gizlilik rehberi ve iletişim seçenekleri.",
+    "heading": "Destek",
+    "lede": "Uygulama iOS ve iPadOS 17 veya sonraki sürümleri ile macOS 14 veya sonraki sürümlerini destekler.",
+    "contact_title": "İletişim",
+    "contact_intro": "Bir sorun, uygulamanın kullanımıyla ilgili bir soru veya geri bildirim için e-posta ya da herkese açık GitHub Issues aracılığıyla bizimle iletişime geçin.",
+    "email_button": "Desteğe e-posta gönder",
+    "issues_button": "GitHub Issues'ı aç",
+    "contact_warning": "Parolaları, Apple ID'leri, API anahtarlarını, gereksiz kişisel bilgileri, adresinizi veya tam mevcut konumunuzu göndermeyin. GitHub Issues herkese açıktır ve GitHub kullanıcı adınız, profil bilgileriniz ve gönderiniz başkaları tarafından görülebilir.",
+    "diagnostics_title": "Destek için yararlı bilgiler",
+    "diagnostics_items": [
+      "iPhone, iPad veya Mac kullanıp kullanmadığınız ve aygıt modeli",
+      "İşletim sistemi sürümü ve uygulama sürümü",
+      "İlgili Güneş veya Ay tutulması olayı",
+      "Sorundan önceki adımlar ve görüntülenen hatalar"
+    ],
+    "privacy_note": "Konum, dışa aktarımlar, e-posta ve GitHub Pages hakkındaki ayrıntılar için {privacy_page} okuyun.",
+    "faq_title": "Sık sorulan sorular",
+    "faqs": {
+      "location_permission": {
+        "question": "Konum izni gerekli mi?",
+        "answer": "Hayır. Haritaya dokunabilir veya tıklayabilir, bir yer arayabilir ya da enlem ve boylam girebilirsiniz. Uygulama yalnızca Mevcut Konum'u seçtikten sonra Core Location izni ister. Harita, arama ve tersine coğrafi kodlama istekleri yine de Apple hizmetleri tarafından işlenebilir."
+      },
+      "modern_maps": {
+        "question": "Tarihî bir olay neden modern bir harita kullanıyor?",
+        "answer": "Arka planda günümüz Apple Maps'i kullanılır. Tarihî veya gelecekteki sınırları, şehirleri, yolları ya da kıyı çizgilerini yeniden oluşturmaz."
+      },
+      "model_differences": {
+        "question": "Değerler NASA'dan veya başka bir referans tablosundan neden farklı olabilir?",
+        "answer": "Sonuçlar efemeris, Ay kenarı yarıçapı, ΔT, Dünya'nın yönelimi, arazi ve atmosfer varsayımları nedeniyle farklılık gösterebilir. Uygulamada gösterilen hesaplama koşullarını ve kaynakları inceleyin. Uygulama gözlem planlaması, navigasyon, bilimsel sonuçlar veya güvenlik açısından kritik kararlar için kesin değerleri garanti etmez."
+      },
+      "lunar_colour": {
+        "question": "Ay tutulmasının rengi bir tahmin mi?",
+        "answer": "Hayır. Kırmızı renk, tutulmanın ilerleyişini anlamaya yardımcı olan şematik bir gösterimdir. Geçmişteki veya gelecekteki bir tutulmanın atmosferini ya da gerçek rengini belirlemez."
+      },
+      "exports": {
+        "question": "Hangi dışa aktarma biçimleri kullanılabilir?",
+        "answer": "Seçilen olay verilerini CSV veya JSON, ekranı ya da pencereyi PNG veya PDF olarak dışa aktarabilirsiniz. Dışa aktarımlar seçilen konumun adını, koordinatlarını, saat dilimini veya ekranda görünen diğer bilgileri içerebilir; bu nedenle paylaşmadan önce içeriği kontrol edin."
+      }
+    },
+    "footer": "{app_name} — Destek"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}

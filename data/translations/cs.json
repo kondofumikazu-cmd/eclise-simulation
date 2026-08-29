@@ -1,0 +1,151 @@
+{
+  "app_locale": "cs",
+  "bcp47": "cs",
+  "native_name": "čeština",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "zásady ochrany osobních údajů",
+    "support_page": "stránka podpory",
+    "apple_maps_privacy": "Apple Maps & Ochrana soukromí",
+    "apple_maps_terms": "Apple Maps podmínky",
+    "github_privacy": "GitHub Privacy Statement",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Přejít k obsahu",
+    "overview": "Přehled v angličtině",
+    "support": "Podpora",
+    "privacy": "Ochrana soukromí",
+    "accessibility": "Přístupnost v angličtině",
+    "languages": "Jazyky",
+    "brand_home_aria": "{app_name} Přehled v angličtině",
+    "privacy_eyebrow": "Zásady ochrany osobních údajů",
+    "support_eyebrow": "Podpora"
+  },
+  "privacy": {
+    "meta_description": "Zásady ochrany osobních údajů pro {app_name}, pokrývající umístění, Apple Maps, ukládání na zařízení, exporty, kontakty na podporu a tento web.",
+    "heading": "Zásady ochrany osobních údajů",
+    "lede": "Tyto zásady se vztahují na iPhone, iPad a Mac verze {app_name}.",
+    "effective_date_label": "Datum účinnosti",
+    "effective_date": "29. srpna 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Zpracování dat v aplikaci",
+        "paragraphs": [
+          "Aplikace neobsahuje reklamy provozované vývojářem, sledování přes různé aplikace, analytiku používání, SDK pro analýzu havárií, účty pro přihlášení, předplatné, chat ani funkce veřejného zveřejňování. Aplikace neposílá osobní údaje na server provozovaný vývojářem.",
+          "Služby Apple, GitHub Pages, poskytovatelé e-mailu a služba pro ukládání či sdílení, kterou si zvolíte, mohou informace zpracovávat nezávisle, jak je popsáno níže."
+        ]
+      },
+      "location": {
+        "title": "Poloha",
+        "paragraphs": [
+          "Aplikace žádá o jednorázové určení polohy pouze poté, co vyberete Aktuální polohu a udělíte oprávnění v systémovém dialogu. Používá výslednou zeměpisnou šířku a délku k nastavení pozorovacího bodu a neprovádí nepřetržité sledování polohy.",
+          "Oprávnění je volitelné. Můžete vybrat bod na mapě, hledat místo nebo zadat zeměpisnou šířku a délku. Tyto možnosti nevyžadují oprávnění Core Location, ale požadavky na mapu, vyhledávání a zpětné geokódování mohou být stále zpracovávány službami Apple."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Aplikace používá MapKit a Apple Maps pro zobrazení mapy, vyhledávání míst, zpětné geokódování a doplňování časového pásma. Požadavky, jako je viditelná oblast mapy, hledané výrazy nebo souřadnice, mohou být zpracovávány společností Apple. Aplikace neobsahuje žádnou vlastní síťovou komunikaci, která by tyto požadavky odesílala na server provozovaný vývojářem.",
+          "Způsob, jakým Apple tyto požadavky zpracovává, je popsán v {apple_maps_privacy} a příslušném {apple_maps_terms}."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Ukládání na zařízení",
+        "paragraphs": [
+          "Nastavení zobrazení jsou uložená v UserDefaults. Oblíbená místa pro pozorování mohou obsahovat název, zeměpisnou šířku, zeměpisnou délku, identifikátor časového pásma a identifikátor vytvořený aplikací, a jsou uložena v databázi SQLite na zařízení.",
+          "Vybrané pozorovací místo a výsledky výpočtů specifických pro danou lokalitu mohou být také uloženy v mezipaměti zařízení, i když místo není uložené mezi oblíbenými. Tato mezipaměť může obsahovat souřadnice a informace o události nebo modelu.",
+          "Aplikace neposkytuje vlastní synchronizaci účtu, synchronizaci CloudKit ani zálohování na server vývojáře. Chování operačního systému při zálohování, odkládání aplikace a odstraňování se liší, takže odstranění aplikace nelze považovat za záruku, že byla odstraněna každá kopie."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Export a sdílení",
+        "paragraphs": [
+          "Exporty CSV a JSON mohou zahrnovat název pozorovacího místa, zeměpisnou šířku, délku a časové pásmo, jakož i údaje o zatmění. Exporty PNG a PDF mohou zahrnovat informace o lokalitě nebo události viditelné na obrazovce.",
+          "Na Macu si zvolíte umístění pro uložení. Na iPhone a iPad aplikace vytvoří dočasný export a zobrazí systémový sdílecí panel. Po exportu se uplatňují zásady ochrany osobních údajů cílové služby nebo služby sdílení, kterou si zvolíte. Aplikace automaticky nenahrává exporty na server vývojáře."
+        ]
+      },
+      "support_contact": {
+        "title": "Podpora e-mailem a GitHub Issues",
+        "paragraphs": [
+          "Pokud píšete podpoře e-mail, vaše e-mailová adresa, zpráva a případné přílohy jsou zpracovávány vývojářem a příslušnými poskytovateli e-mailu v souvislosti s vyřizováním vaší žádosti o podporu. Nezasílejte osobní nebo důvěrné informace, které nejsou potřebné pro podporu. Kontaktujte {email} s dotazem ohledně nakládání nebo smazání zprávy podpory.",
+          "{issues_page} je veřejný. Vaše uživatelské jméno GitHub, profilové informace a odeslaný obsah mohou být viditelné pro ostatní a jsou zpracovávány podle {github_privacy}. Nezveřejňujte hesla, Apple IDs, klíče API, vaši adresu, vaši přesnou aktuální polohu ani jiné osobní údaje."
+        ]
+      },
+      "children": {
+        "title": "Ochrana soukromí dětí",
+        "paragraphs": [
+          "Aplikace není určena ke sběru osobních údajů a neposkytuje věkové profily, účty, chat ani veřejné příspěvky uvnitř aplikace. Děti a jejich zákonní zástupci by neměli zasílat osobní údaje prostřednictvím podpůrného e-mailu ani veřejného GitHub Issues. Zákonný zástupce se může obrátit na {email} s dotazem ohledně informací zaslaných do podpory."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Tato webová stránka a GitHub Pages",
+        "paragraphs": [
+          "Tato stránka nepřidává vlastní analytiku, reklamy, sledovací cookies, vstupní formuláře ani skripty na straně klienta. Je hostována společností GitHub Pages, takže GitHub může zpracovávat přístupové logy a další technické informace potřebné k provozu a zabezpečení služby. Viz {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Změny",
+        "paragraphs": [
+          "Pokud se změní postupy správy dat aplikace, tato politika a příslušné reakce na ochranu osobních údajů App Store budou aktualizovány a revidovaná politika bude zveřejněna na této stránce."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "paragraphs": [
+          "Pro otázku ohledně této politiky pošlete e-mail na {email} nebo použijte {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Ochrana osobních údajů"
+  },
+  "support": {
+    "meta_description": "Nápověda, často kladené otázky, pokyny k ochraně osobních údajů a možnosti kontaktu pro {app_name}.",
+    "heading": "Podpora",
+    "lede": "Aplikace podporuje iOS a iPadOS 17 nebo vyšší a macOS 14 nebo vyšší.",
+    "contact_title": "Kontakt",
+    "contact_intro": "Pro problém, otázku ohledně používání aplikace nebo zpětnou vazbu nás kontaktujte e-mailem nebo veřejně GitHub Issues.",
+    "email_button": "E-mailová podpora",
+    "issues_button": "Otevřít GitHub Issues",
+    "contact_warning": "Neposílejte hesla, Apple IDs, API klíče, zbytečné osobní údaje, svou adresu ani přesnou aktuální polohu. GitHub Issues je veřejné a váš GitHub uživatelský název, informace o profilu a příspěvky mohou být viditelné pro ostatní.",
+    "diagnostics_title": "Informace, které pomáhají s podporou",
+    "diagnostics_items": [
+      "Zda používáte iPhone, iPad nebo Mac, a model zařízení",
+      "Verze operačního systému a verze aplikace",
+      "Příslušné sluneční nebo měsíční zatmění",
+      "Kroky před problémem a jakákoli zobrazená chyba"
+    ],
+    "privacy_note": "Pro podrobnosti o lokaci, exportech, e-mailu a GitHub Pages si přečtěte {privacy_page}.",
+    "faq_title": "Nejčastěji kladené otázky",
+    "faqs": {
+      "location_permission": {
+        "question": "Je vyžadováno povolení k lokaci?",
+        "answer": "Ne. Můžete klepnout nebo kliknout na mapu, vyhledat místo, nebo zadat zeměpisnou šířku a délku. Aplikace žádá o povolení Core Location jen poté, co zvolíte Aktuální lokaci. Požadavky na mapu, vyhledávání a zpětné geokódování mohou být stále zpracovávány službami Apple."
+      },
+      "modern_maps": {
+        "question": "Proč historická událost používá moderní mapu?",
+        "answer": "Pozadí je současný Apple Maps. Nezobrazuje historické ani budoucí hranice, města, silnice ani pobřeží."
+      },
+      "model_differences": {
+        "question": "Proč se hodnoty mohou lišit od NASA nebo jiné referenční tabulky?",
+        "answer": "Výsledky se mohou lišit kvůli efemeridě, poloměru měsíčního lemu, ΔT, orientaci Země, terénu a atmosférickým předpokladům. Zkontrolujte výpočetní podmínky a zdroje uvedené v aplikaci. Aplikace nezaručuje definitivní hodnoty pro plánování pozorování, navigaci, vědecké závěry ani rozhodnutí, která jsou kritická pro bezpečnost."
+      },
+      "lunar_colour": {
+        "question": "Je barva měsíčního zatmění předpovědí?",
+        "answer": "Ne. Červená barva je schématická pomůcka pro pochopení průběhu zatmění. Neurčuje atmosféru ani skutečnou barvu historického nebo budoucího zatmění."
+      },
+      "exports": {
+        "question": "Jaké exportní formáty jsou k dispozici?",
+        "answer": "Můžete exportovat data vybraných událostí jako CSV nebo JSON a obrazovku nebo okno jako PNG nebo PDF. Exporty mohou zahrnovat název vybrané lokality, souřadnice, časové pásmo nebo jiné informace viditelné na obrazovce, proto obsah zkontrolujte před jeho sdílením."
+      }
+    },
+    "footer": "{app_name} — Podpora"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical/linguistic review completed; native and legal review pending."
+  }
+}

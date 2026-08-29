@@ -1,0 +1,151 @@
+{
+  "app_locale": "ro",
+  "bcp47": "ro",
+  "native_name": "română",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "politica de confidențialitate",
+    "support_page": "pagina de asistență",
+    "apple_maps_privacy": "Apple Maps și confidențialitatea",
+    "apple_maps_terms": "termenii Apple Maps",
+    "github_privacy": "Declarația de confidențialitate GitHub",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Salt la conținut",
+    "overview": "Prezentare generală în limba română",
+    "support": "Asistență",
+    "privacy": "Confidențialitate",
+    "accessibility": "Accesibilitate în limba română",
+    "languages": "Limbi",
+    "brand_home_aria": "Prezentarea generală în limba română pentru {app_name}",
+    "privacy_eyebrow": "Politica de confidențialitate",
+    "support_eyebrow": "Asistență"
+  },
+  "privacy": {
+    "meta_description": "Politica de confidențialitate pentru {app_name}, referitoare la localizare, Apple Maps, stocarea pe dispozitiv, exporturi, contactarea asistenței și acest site web.",
+    "heading": "Politica de confidențialitate",
+    "lede": "Această politică se aplică versiunilor pentru iPhone, iPad și Mac ale {app_name}.",
+    "effective_date_label": "Data intrării în vigoare",
+    "effective_date": "29 august 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Practici privind datele în aplicație",
+        "paragraphs": [
+          "Aplicația nu include publicitate administrată de dezvoltator, urmărire între aplicații, analiză a utilizării, SDK-uri pentru analiza blocărilor, conturi de autentificare, abonamente, chat sau funcții de publicare. Aplicația nu trimite date cu caracter personal către un server administrat de dezvoltator.",
+          "Serviciile Apple, GitHub Pages, furnizorii de e-mail și un serviciu de salvare sau partajare ales de dvs. pot prelucra informații în mod independent, conform descrierii de mai jos."
+        ]
+      },
+      "location": {
+        "title": "Localizare",
+        "paragraphs": [
+          "Aplicația solicită o singură determinare a locației numai după ce alegeți Locația actuală și acordați permisiunea în mesajul sistemului. Aceasta folosește latitudinea și longitudinea rezultate pentru a seta punctul de observație și nu implementează urmărirea continuă a locației.",
+          "Permisiunea este opțională. Puteți selecta un punct pe hartă, căuta un loc sau introduce latitudinea și longitudinea. Aceste alternative evită permisiunea Core Location, însă solicitările pentru hartă, căutare și geocodare inversă pot fi în continuare prelucrate de serviciile Apple."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Aplicația folosește MapKit și Apple Maps pentru afișarea hărții, căutarea locurilor, geocodarea inversă și completarea fusului orar. Solicitări precum regiunea vizibilă a hărții, termenii de căutare sau coordonatele pot fi prelucrate de Apple. Aplicația nu conține o funcție de rețea personalizată care să trimită aceste solicitări către un server administrat de dezvoltator.",
+          "Modul în care Apple gestionează aceste solicitări este descris în {apple_maps_privacy} și în {apple_maps_terms} aplicabili."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Stocarea pe dispozitiv",
+        "paragraphs": [
+          "Setările de afișare sunt stocate în UserDefaults. Locurile de observație favorite pot include un nume, latitudinea, longitudinea, identificatorul fusului orar și un identificator generat de aplicație și sunt stocate într-o bază de date SQLite pe dispozitiv.",
+          "Un punct de observație selectat și rezultatele calculelor specifice locației pot fi păstrate în memoria cache a dispozitivului chiar dacă punctul nu este salvat ca favorit. Această memorie cache poate conține coordonate și informații despre eveniment sau model.",
+          "Aplicația nu oferă sincronizare proprie a contului, sincronizare CloudKit sau copii de siguranță pe un server al dezvoltatorului. Comportamentul sistemului de operare privind copiile de siguranță, descărcarea aplicației și eliminarea variază, astfel încât eliminarea aplicației nu trebuie considerată o garanție că fiecare copie a fost ștearsă."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Export și partajare",
+        "paragraphs": [
+          "Exporturile CSV și JSON pot include numele unui loc de observație, latitudinea, longitudinea și fusul orar, precum și date despre eclipsă. Exporturile PNG și PDF pot include informații despre locație sau eveniment vizibile pe ecran.",
+          "Pe Mac, alegeți locul de salvare. Pe iPhone și iPad, aplicația creează un export temporar și afișează foaia de partajare a sistemului. După export, se aplică practicile de confidențialitate ale destinației sau serviciului de partajare ales. Aplicația nu încarcă automat exporturile pe un server al dezvoltatorului."
+        ]
+      },
+      "support_contact": {
+        "title": "E-mail de asistență și GitHub Issues",
+        "paragraphs": [
+          "Dacă trimiteți un e-mail către asistență, adresa dvs. de e-mail, mesajul și eventualele atașamente sunt prelucrate de dezvoltator și de furnizorii de e-mail relevanți pentru gestionarea solicitării. Nu trimiteți informații personale sau confidențiale care nu sunt necesare pentru asistență. Contactați {email} pentru întrebări despre gestionarea sau ștergerea unui mesaj de asistență.",
+          "{issues_page} este public. Numele dvs. de utilizator GitHub, informațiile de profil și conținutul trimis pot fi vizibile altor persoane și sunt prelucrate conform {github_privacy}. Nu publicați parole, ID-uri Apple, chei API, adresa dvs., locația actuală exactă sau alte informații personale."
+        ]
+      },
+      "children": {
+        "title": "Confidențialitatea copiilor",
+        "paragraphs": [
+          "Aplicația nu este concepută pentru a colecta date cu caracter personal și nu oferă profiluri de vârstă, conturi, chat sau publicare în cadrul aplicației. Copiii și tutorii nu trebuie să trimită informații personale prin e-mailul de asistență sau prin GitHub Issues public. Un tutore poate contacta {email} pentru întrebări despre informațiile trimise pentru asistență."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Acest site web și GitHub Pages",
+        "paragraphs": [
+          "Acest site nu adaugă propriile instrumente de analiză, publicitate, module cookie de urmărire, formulare de introducere a datelor sau scripturi la nivelul clientului. Este găzduit de GitHub Pages, astfel încât GitHub poate prelucra jurnale de acces și alte informații tehnice necesare pentru operarea și securizarea serviciului. Consultați {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Modificări",
+        "paragraphs": [
+          "Dacă practicile aplicației privind datele se modifică, această politică și răspunsurile aplicabile privind confidențialitatea din App Store vor fi actualizate, iar politica revizuită va fi publicată pe această pagină."
+        ]
+      },
+      "contact": {
+        "title": "Contact",
+        "paragraphs": [
+          "Pentru întrebări despre această politică, trimiteți un e-mail la {email} sau utilizați {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Confidențialitate"
+  },
+  "support": {
+    "meta_description": "Ajutor, întrebări frecvente, recomandări privind confidențialitatea și opțiuni de contact pentru {app_name}.",
+    "heading": "Asistență",
+    "lede": "Aplicația este compatibilă cu iOS și iPadOS 17 sau versiuni ulterioare și macOS 14 sau versiuni ulterioare.",
+    "contact_title": "Contact",
+    "contact_intro": "Pentru o problemă, o întrebare despre utilizarea aplicației sau feedback, contactați-ne prin e-mail sau prin GitHub Issues public.",
+    "email_button": "Trimiteți un e-mail asistenței",
+    "issues_button": "Deschideți GitHub Issues",
+    "contact_warning": "Nu trimiteți parole, ID-uri Apple, chei API, informații personale inutile, adresa dvs. sau locația actuală exactă. GitHub Issues este public, iar numele dvs. de utilizator GitHub, informațiile de profil și postarea pot fi vizibile altor persoane.",
+    "diagnostics_title": "Informații utile pentru asistență",
+    "diagnostics_items": [
+      "Dacă utilizați un iPhone, iPad sau Mac și modelul dispozitivului",
+      "Versiunea sistemului de operare și versiunea aplicației",
+      "Evenimentul de eclipsă de Soare sau de Lună implicat",
+      "Pașii de dinaintea problemei și orice eroare afișată"
+    ],
+    "privacy_note": "Pentru detalii despre localizare, exporturi, e-mail și GitHub Pages, citiți {privacy_page}.",
+    "faq_title": "Întrebări frecvente",
+    "faqs": {
+      "location_permission": {
+        "question": "Este necesară permisiunea pentru localizare?",
+        "answer": "Nu. Puteți atinge sau face clic pe hartă, căuta un loc ori introduce latitudinea și longitudinea. Aplicația solicită permisiunea Core Location numai după ce alegeți Locația actuală. Solicitările pentru hartă, căutare și geocodare inversă pot fi în continuare prelucrate de serviciile Apple."
+      },
+      "modern_maps": {
+        "question": "De ce un eveniment istoric folosește o hartă modernă?",
+        "answer": "Fundalul este reprezentat de Apple Maps din prezent. Acesta nu reconstruiește granițe, orașe, drumuri sau linii de coastă istorice ori viitoare."
+      },
+      "model_differences": {
+        "question": "De ce pot diferi valorile față de NASA sau de un alt tabel de referință?",
+        "answer": "Rezultatele pot diferi din cauza efemeridelor, razei limbului lunar, ΔT, orientării Pământului, reliefului și ipotezelor atmosferice. Consultați condițiile de calcul și sursele afișate în aplicație. Aplicația nu garantează valori definitive pentru planificarea observațiilor, navigație, concluzii științifice sau decizii esențiale pentru siguranță."
+      },
+      "lunar_colour": {
+        "question": "Culoarea eclipsei de Lună este o predicție?",
+        "answer": "Nu. Culoarea roșie este un ajutor schematic pentru înțelegerea evoluției eclipsei. Aceasta nu determină atmosfera sau culoarea reală a unei eclipse istorice ori viitoare."
+      },
+      "exports": {
+        "question": "Ce formate de export sunt disponibile?",
+        "answer": "Puteți exporta datele evenimentului selectat ca CSV sau JSON și ecranul ori fereastra ca PNG sau PDF. Exporturile pot include numele locației selectate, coordonatele, fusul orar sau alte informații vizibile pe ecran, așadar verificați conținutul înainte de partajare."
+      }
+    },
+    "footer": "{app_name} — Asistență"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}

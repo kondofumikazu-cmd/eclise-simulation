@@ -1,0 +1,151 @@
+{
+  "app_locale": "sv",
+  "bcp47": "sv",
+  "native_name": "svenska",
+  "direction": "ltr",
+  "app_name": "Eclipse Simulator",
+  "links": {
+    "email": "kondofumikazu@icloud.com",
+    "privacy_page": "integritetspolicyn",
+    "support_page": "supportsidan",
+    "apple_maps_privacy": "Apple Maps och integritet",
+    "apple_maps_terms": "villkoren för Apple Maps",
+    "github_privacy": "GitHubs integritetspolicy",
+    "issues_page": "GitHub Issues"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "overview": "Översikt på svenska",
+    "support": "Support",
+    "privacy": "Integritet",
+    "accessibility": "Tillgänglighet på svenska",
+    "languages": "Språk",
+    "brand_home_aria": "Översikt över {app_name} på svenska",
+    "privacy_eyebrow": "Integritetspolicy",
+    "support_eyebrow": "Support"
+  },
+  "privacy": {
+    "meta_description": "Integritetspolicy för {app_name} som omfattar plats, Apple Maps, lagring på enheten, exporter, supportkontakt och den här webbplatsen.",
+    "heading": "Integritetspolicy",
+    "lede": "Den här policyn gäller versionerna av {app_name} för iPhone, iPad och Mac.",
+    "effective_date_label": "Gäller från",
+    "effective_date": "29 augusti 2026",
+    "sections": {
+      "developer_data_collection": {
+        "title": "Datahantering i appen",
+        "paragraphs": [
+          "Appen innehåller inte reklam som drivs av utvecklaren, spårning mellan appar, användningsanalys, SDK:er för kraschanalys, inloggningskonton, prenumerationer, chatt eller funktioner för offentliga inlägg. Appen skickar inte personuppgifter till en server som drivs av utvecklaren.",
+          "Apple-tjänster, GitHub Pages, e-postleverantörer och en lagrings- eller delningstjänst som du väljer kan behandla information självständigt enligt beskrivningen nedan."
+        ]
+      },
+      "location": {
+        "title": "Plats",
+        "paragraphs": [
+          "Appen begär en platsbestämning vid ett tillfälle först efter att du har valt Aktuell plats och gett tillstånd i systemdialogrutan. Den använder den resulterande latituden och longituden för att ställa in observationspunkten och har ingen kontinuerlig platsspårning.",
+          "Tillståndet är valfritt. Du kan välja en punkt på kartan, söka efter en plats eller ange latitud och longitud. De alternativen kräver inte Core Location-tillstånd, men förfrågningar om kartor, sökning och omvänd geokodning kan fortfarande behandlas av Apple-tjänster."
+        ]
+      },
+      "apple_maps": {
+        "title": "Apple Maps",
+        "paragraphs": [
+          "Appen använder MapKit och Apple Maps för kartvisning, platssökning, omvänd geokodning och komplettering av tidszon. Förfrågningar som det synliga kartområdet, söktermer eller koordinater kan behandlas av Apple. Appen innehåller ingen anpassad nätverksfunktion som skickar dessa förfrågningar till en server som drivs av utvecklaren.",
+          "Apples behandling av dessa förfrågningar beskrivs i {apple_maps_privacy} och tillämpliga {apple_maps_terms}."
+        ]
+      },
+      "on_device_storage": {
+        "title": "Lagring på enheten",
+        "paragraphs": [
+          "Visningsinställningar lagras i UserDefaults. Favoritplatser för observation kan innehålla namn, latitud, longitud, tidszonsidentifierare och en identifierare som skapats av appen och lagras i en SQLite-databas på enheten.",
+          "En vald observationspunkt och platsspecifika beräkningsresultat kan också cachelagras på enheten även när punkten inte sparas som favorit. Cachen kan innehålla koordinater och information om en händelse eller modell.",
+          "Appen erbjuder inte egen kontosynkronisering, CloudKit-synkronisering eller säkerhetskopiering till en utvecklarserver. Operativsystemets beteende för säkerhetskopiering, avlastning och borttagning varierar, så borttagning av appen ska inte ses som en garanti för att varje kopia har raderats."
+        ]
+      },
+      "export_and_sharing": {
+        "title": "Export och delning",
+        "paragraphs": [
+          "CSV- och JSON-exporter kan innehålla en observationsplats namn, latitud, longitud och tidszon samt förmörkelsedata. PNG- och PDF-exporter kan innehålla plats- eller händelseinformation som visas på skärmen.",
+          "På Mac väljer du platsen där filen ska sparas. På iPhone och iPad skapar appen en tillfällig export och visar systemets delningsblad. Efter exporten gäller integritetspolicyn för den destination eller delningstjänst du väljer. Appen laddar inte automatiskt upp exporter till en utvecklarserver."
+        ]
+      },
+      "support_contact": {
+        "title": "Support via e-post och GitHub Issues",
+        "paragraphs": [
+          "Om du skickar e-post till supporten behandlas din e-postadress, ditt meddelande och eventuella bilagor av utvecklaren och berörda e-postleverantörer för att hantera din supportförfrågan. Skicka inte personliga eller konfidentiella uppgifter som inte behövs för support. Kontakta {email} om du har frågor om behandling eller radering av ett supportmeddelande.",
+          "{issues_page} är offentligt. Ditt GitHub-användarnamn, din profilinformation och det innehåll du skickar in kan vara synliga för andra och behandlas enligt {github_privacy}. Publicera inte lösenord, Apple-ID:n, API-nycklar, din adress, din exakta aktuella plats eller andra personuppgifter."
+        ]
+      },
+      "children": {
+        "title": "Barns integritet",
+        "paragraphs": [
+          "Appen är inte utformad för att samla in personuppgifter och erbjuder inte åldersprofiler, konton, chatt eller offentliga inlägg i appen. Barn och vårdnadshavare bör inte skicka personuppgifter via supportens e-post eller offentliga GitHub Issues. En vårdnadshavare kan kontakta {email} med frågor om information som skickats till supporten."
+        ]
+      },
+      "website_and_github_pages": {
+        "title": "Den här webbplatsen och GitHub Pages",
+        "paragraphs": [
+          "Den här webbplatsen lägger inte till egen analys, reklam, spårningscookies, inmatningsformulär eller skript på klientsidan. Den driftas via GitHub Pages, så GitHub kan behandla åtkomstloggar och annan teknisk information som behövs för att driva och skydda tjänsten. Se {github_privacy}."
+        ]
+      },
+      "changes": {
+        "title": "Ändringar",
+        "paragraphs": [
+          "Om appens datahantering ändras kommer den här policyn och tillämpliga integritetssvar i App Store att uppdateras, och den reviderade policyn publiceras på den här sidan."
+        ]
+      },
+      "contact": {
+        "title": "Kontakt",
+        "paragraphs": [
+          "Om du har frågor om den här policyn kan du skicka e-post till {email} eller använda {support_page}."
+        ]
+      }
+    },
+    "footer": "{app_name} — Integritet"
+  },
+  "support": {
+    "meta_description": "Hjälp, vanliga frågor, integritetsvägledning och kontaktalternativ för {app_name}.",
+    "heading": "Support",
+    "lede": "Appen stöder iOS och iPadOS 17 eller senare samt macOS 14 eller senare.",
+    "contact_title": "Kontakt",
+    "contact_intro": "Kontakta oss via e-post eller offentliga GitHub Issues om du har ett problem, en fråga om att använda appen eller återkoppling.",
+    "email_button": "Skicka e-post till supporten",
+    "issues_button": "Öppna GitHub Issues",
+    "contact_warning": "Skicka inte lösenord, Apple-ID:n, API-nycklar, onödiga personuppgifter, din adress eller din exakta aktuella plats. GitHub Issues är offentligt och ditt GitHub-användarnamn, din profilinformation och ditt inlägg kan vara synliga för andra.",
+    "diagnostics_title": "Information som hjälper supporten",
+    "diagnostics_items": [
+      "Om du använder en iPhone, iPad eller Mac och enhetens modell",
+      "Operativsystemets version och appversionen",
+      "Den berörda sol- eller månförmörkelsen",
+      "Stegen innan problemet och eventuella fel som visades"
+    ],
+    "privacy_note": "Läs {privacy_page} för mer information om plats, exporter, e-post och GitHub Pages.",
+    "faq_title": "Vanliga frågor",
+    "faqs": {
+      "location_permission": {
+        "question": "Krävs platstillstånd?",
+        "answer": "Nej. Du kan trycka eller klicka på kartan, söka efter en plats eller ange latitud och longitud. Appen begär Core Location-tillstånd först efter att du har valt Aktuell plats. Förfrågningar om kartor, sökning och omvänd geokodning kan fortfarande behandlas av Apple-tjänster."
+      },
+      "modern_maps": {
+        "question": "Varför använder en historisk händelse en modern karta?",
+        "answer": "Bakgrunden är dagens Apple Maps. Den återskapar inte historiska eller framtida gränser, städer, vägar eller kustlinjer."
+      },
+      "model_differences": {
+        "question": "Varför kan värden skilja sig från NASA eller en annan referenstabell?",
+        "answer": "Resultat kan skilja sig på grund av efemeriden, månrandens radie, ΔT, jordens orientering, terräng och antaganden om atmosfären. Läs beräkningsvillkoren och källorna som visas i appen. Appen garanterar inte definitiva värden för observationsplanering, navigering, vetenskapliga slutsatser eller säkerhetskritiska beslut."
+      },
+      "lunar_colour": {
+        "question": "Är månförmörkelsens färg en prognos?",
+        "answer": "Nej. Den röda färgen är ett schematiskt hjälpmedel för att förstå förmörkelsens förlopp. Den fastställer inte atmosfären eller den faktiska färgen hos en historisk eller framtida förmörkelse."
+      },
+      "exports": {
+        "question": "Vilka exportformat är tillgängliga?",
+        "answer": "Du kan exportera data för den valda händelsen som CSV eller JSON och skärmen eller fönstret som PNG eller PDF. Exporter kan innehålla den valda platsens namn, koordinater, tidszon eller annan information som visas på skärmen, så kontrollera innehållet innan du delar det."
+      }
+    },
+    "footer": "{app_name} — Support"
+  },
+  "quality": {
+    "status": "machine-translated-independent-review",
+    "native_review_required": true,
+    "notes": "Independent technical and linguistic review completed against the audited English source; native and legal review pending."
+  }
+}
